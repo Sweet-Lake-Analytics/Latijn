@@ -3,7 +3,7 @@ import { DynamoDBDocumentClient, GetCommand, PutCommand, UpdateCommand } from "@
 import { UserData } from './types';
 
 const client = new DynamoDBClient({
-  region: process.env.AWS_REGION || 'us-east-1',
+  region: process.env.APP_AWS_REGION || 'us-east-1',
 });
 
 const docClient = DynamoDBDocumentClient.from(client);
