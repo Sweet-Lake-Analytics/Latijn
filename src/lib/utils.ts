@@ -3,6 +3,7 @@ export interface Word {
   chapter: string;
   latin: string;
   dutch: string;
+  comment?: string;
 }
 
 export interface UserScore {
@@ -23,6 +24,7 @@ export async function fetchWords(): Promise<Word[]> {
       chapter: item.chapter.toString().trim(),
       latin: item.latin.trim(),
       dutch: item.dutch.trim(),
+      comment: item.comment?.trim(),
     }));
   } catch (error) {
     console.error('Error fetching words:', error);

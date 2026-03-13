@@ -15,6 +15,13 @@ export default function Flashcards({ words, onBack, updateScore, scores, userId 
   const [currentWord, setCurrentWord] = useState<Word | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
   const [startTime, setStartTime] = useState(Date.now());
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  const [isMouseDown, setIsMouseDown] = useState(false);
+  const [swipeOffset, setSwipeOffset] = useState(0);
+
+  // Minimum swipe distance for a horizontal swipe
+  const minSwipeDistance = 50;
 
   useEffect(() => {
     setStartTime(Date.now());
@@ -41,21 +48,117 @@ export default function Flashcards({ words, onBack, updateScore, scores, userId 
     const word = getWeightedWord(words, scores);
     setCurrentWord(word);
     setShowTranslation(false);
+    setSwipeOffset(0);
+    setTouchStart(null);
+    setTouchEnd(null);
+  };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (!touchStart) return;
+    const currentTouch = e.targetTouches[0].clientX;
+    setTouchEnd(currentTouch);
+    setSwipeOffset(currentTouch - touchStart);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    handleSwipe(distance);
+  };
+
+  const onMouseDown = (e: React.MouseEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.clientX);
+    setIsMouseDown(true);
+  };
+
+  const onMouseMove = (e: React.MouseEvent) => {
+    if (!isMouseDown || !touchStart) return;
+    const currentMouse = e.clientX;
+    setTouchEnd(currentMouse);
+    setSwipeOffset(currentMouse - touchStart);
+  };
+
+  const onMouseUp = () => {
+    if (!isMouseDown) return;
+    setIsMouseDown(false);
+    if (!touchStart || !touchEnd) {
+      setTouchStart(null);
+      setTouchEnd(null);
+      setSwipeOffset(0);
+      return;
+    }
+    const distance = touchStart - touchEnd;
+    handleSwipe(distance);
+  };
+
+  const handleSwipe = (distance: number) => {
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe && currentWord) {
+      // Left swipe: increase score (don't know well -> more frequent)
+      updateScore(currentWord.id, 1);
+      nextWord();
+    } else if (isRightSwipe && currentWord) {
+      // Right swipe: decrease score (know well -> less frequent)
+      updateScore(currentWord.id, -1);
+      nextWord();
+    } else {
+      // Reset position if swipe not far enough
+      setSwipeOffset(0);
+      setTouchStart(null);
+      setTouchEnd(null);
+    }
   };
 
   if (!currentWord) return <div className="dark:text-white">No words available for selected chapters.</div>;
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full h-full sm:h-auto sm:mt-10">
-      <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-gray-800 dark:text-gray-100">Flashcards</h2>
+    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
+      <h2 className="text-xl sm:text-2xl font-bold mb-2 text-gray-800 dark:text-gray-100 text-center w-full">Flashcards</h2>
+      
+      <div className="w-full text-center mb-4 flex justify-between px-2">
+        <span className="text-[10px] text-red-500 dark:text-red-400 font-bold uppercase animate-pulse">← More Frequent (Unknown)</span>
+        <span className="text-[10px] text-green-500 dark:text-green-400 font-bold uppercase animate-pulse">Less Frequent (Known) →</span>
+      </div>
+
       <div 
-        onClick={() => setShowTranslation(!showTranslation)}
-        className="w-full min-h-[200px] sm:min-h-[250px] flex flex-col items-center justify-center border-2 border-indigo-500 dark:border-indigo-600 rounded-2xl cursor-pointer hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-all p-4 sm:p-8 text-center shadow-inner"
+        onClick={() => {
+          if (Math.abs(swipeOffset) < 5) setShowTranslation(!showTranslation);
+        }}
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={onMouseUp}
+        onMouseLeave={onMouseUp}
+        style={{ 
+          transform: `translateX(${swipeOffset}px) rotate(${swipeOffset * 0.05}deg)`,
+          transition: (touchEnd || isMouseDown) ? 'none' : 'transform 0.3s ease-out',
+          cursor: isMouseDown ? 'grabbing' : 'pointer'
+        }}
+        className="w-full min-h-[200px] sm:min-h-[250px] flex flex-col items-center justify-center border-2 border-indigo-500 dark:border-indigo-600 rounded-2xl hover:bg-indigo-50 dark:hover:bg-indigo-900/20 transition-all p-4 sm:p-8 text-center shadow-inner touch-none relative overflow-hidden select-none"
       >
+        {/* Swipe indicators inside the card */}
+        {swipeOffset < -20 && (
+          <div className="absolute inset-y-0 right-0 w-1 bg-green-500 opacity-50"></div>
+        )}
+        {swipeOffset > 20 && (
+          <div className="absolute inset-y-0 left-0 w-1 bg-red-500 opacity-50"></div>
+        )}
+
         <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 font-bold">{currentWord.latin}</div>
         {showTranslation && (
           <div className="mt-4 sm:mt-8 text-xl sm:text-2xl text-gray-700 dark:text-gray-300 animate-in fade-in slide-in-from-top-2 duration-300">
             {currentWord.dutch}
+            {currentWord.comment && <span className="block text-sm sm:text-lg mt-2 text-gray-500 dark:text-gray-400">({currentWord.comment})</span>}
           </div>
         )}
         {!showTranslation && (

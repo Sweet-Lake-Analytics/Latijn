@@ -202,7 +202,8 @@
   {
     "chapter": "3",
     "latin": "teneo (tenēre)",
-    "dutch": "(vast)houden"
+    "dutch": "ik houd vast",
+    "comment": "(vast)houden"
   },
   {
     "chapter": "3",
@@ -222,7 +223,8 @@
   {
     "chapter": "3",
     "latin": "laboro (laborare)",
-    "dutch": "zich inspannen / zwoegen / lijden"
+    "dutch": "ik span me in / zwoeg / lijd",
+    "comment": "zich inspannen / zwoegen / lijden"
   },
   {
     "chapter": "3",
@@ -237,7 +239,8 @@
   {
     "chapter": "3",
     "latin": "bibo (bibĕre)",
-    "dutch": "drinken"
+    "dutch": "ik drink",
+    "comment": "drinken"
   },
   {
     "chapter": "3",
@@ -252,7 +255,8 @@
   {
     "chapter": "3",
     "latin": "sino (sinĕre)",
-    "dutch": "toestaan / (toe)laten"
+    "dutch": "ik sta toe / laat",
+    "comment": "toestaan / (toe) laten"
   },
   {
     "chapter": "3",
@@ -262,12 +266,14 @@
   {
     "chapter": "3",
     "latin": "veto (vetare)",
-    "dutch": "verbieden"
+    "dutch": "ik verbied",
+    "comment": "verbieden"
   },
   {
     "chapter": "3",
     "latin": "rogo (rogare)",
-    "dutch": "vragen"
+    "dutch": "ik vraag",
+    "comment": "vragen"
   },
   {
     "chapter": "3",
@@ -287,7 +293,8 @@
   {
     "chapter": "3",
     "latin": "moveo (movēre)",
-    "dutch": "bewegen"
+    "dutch": "ik beweeg",
+    "comment": "bewegen"
   },
   {
     "chapter": "3",
@@ -297,17 +304,13 @@
   {
     "chapter": "3",
     "latin": "dico (dicĕre)",
-    "dutch": "zeggen / spreken / noemen"
+    "dutch": "ik zeg / spreek / noem",
+    "comment": "zeggen / spreken / noemen"
   },
   {
     "chapter": "3",
     "latin": "noster, -stra, -strum",
     "dutch": "(van) ons,"
-  },
-  {
-    "chapter": "3",
-    "latin": "onze",
-    "dutch": "(bezittelijk voornaamwoord)"
   },
   {
     "chapter": "3",
@@ -317,7 +320,8 @@
   {
     "chapter": "3",
     "latin": "habito",
-    "dutch": "(habitare) wonen"
+    "dutch": "ik woon",
+    "comment": "(habitare) wonen"
   },
   {
     "chapter": "3",
@@ -327,7 +331,8 @@
   {
     "chapter": "3",
     "latin": "venio (venire)",
-    "dutch": "komen"
+    "dutch": "ik kom",
+    "comment": "komen"
   },
   {
     "chapter": "3",
@@ -377,7 +382,8 @@
   {
     "chapter": "3",
     "latin": "sedeo (sedēre)",
-    "dutch": "zitten"
+    "dutch": "ik zit",
+    "comment": "ik zit"
   },
   {
     "chapter": "3",
@@ -396,7 +402,7 @@
   },
   {
     "chapter": "3",
-    "latin": "mater, matrem moeder",
+    "latin": "mater, matrem",
     "dutch": "moeder"
   },
   {
@@ -407,17 +413,20 @@
   {
     "chapter": "3",
     "latin": "iuvo (iuvare)",
-    "dutch": "helpen"
+    "dutch": "ik help",
+    "comment": "helpen"
   },
   {
     "chapter": "3",
     "latin": "debeo (debēre)",
-    "dutch": "moeten / verschuldigd zijn"
+    "dutch": "ik moet / ben verschuldigd",
+    "comment": "moeten / verschuldigd zijn"
   },
   {
     "chapter": "3",
     "latin": "possum (posse)",
-    "dutch": "kunnen"
+    "dutch": "ik kan",
+    "comment": "kunnen"
   },
   {
     "chapter": "4",
@@ -432,7 +441,8 @@
   {
     "chapter": "4",
     "latin": "specto (spectare)",
-    "dutch": "kijken naar / zien"
+    "dutch": "ik kijk naar / zie",
+    "comment": "kijken naar / zien"
   },
   {
     "chapter": "4",
@@ -442,7 +452,8 @@
   {
     "chapter": "4",
     "latin": "ambulo (ambulare)",
-    "dutch": "wandelen"
+    "dutch": "ik wandel",
+    "comment": "wandelen"
   },
   {
     "chapter": "4",
@@ -452,7 +463,8 @@
   {
     "chapter": "4",
     "latin": "placeo (placēre) + dat.",
-    "dutch": "in de smaak vallen bij"
+    "dutch": "ik val in de smaak bij",
+    "comment": "in de smaak vallen bij"
   },
   {
     "chapter": "4",
@@ -467,7 +479,8 @@
   {
     "chapter": "4",
     "latin": "circumdo (circumdare)",
-    "dutch": "omgeven"
+    "dutch": "ik omgeef",
+    "comment": "omgeven"
   },
   {
     "chapter": "4",
@@ -477,7 +490,8 @@
   {
     "chapter": "4",
     "latin": "metuo (metuěre)",
-    "dutch": "vrezen / bang zijn"
+    "dutch": "ik vrees / ben bang",
+    "comment": "vrezen / bang zijn"
   },
   {
     "chapter": "4",
@@ -492,7 +506,8 @@
   {
     "chapter": "4",
     "latin": "quaero (quaerěre)",
-    "dutch": "zoeken / vragen"
+    "dutch": "ik zoek / vraag",
+    "comment": "zoeken / vragen"
   },
   {
     "chapter": "4",
@@ -507,17 +522,20 @@
   {
     "chapter": "4",
     "latin": "descendo (descenděre)",
-    "dutch": "afdalen"
+    "dutch": "ik daal af",
+    "comment": "afdalen"
   },
   {
     "chapter": "4",
     "latin": "respondeo (respondēre)",
-    "dutch": "antwoorden"
+    "dutch": "ik antwoord",
+    "comment": "antwoorden"
   },
   {
     "chapter": "4",
     "latin": "cupio (cupěre)",
-    "dutch": "begeren / willen / verlangen"
+    "dutch": "ik begeer / wil / verlang",
+    "comment": "begeren / willen / verlangen"
   },
   {
     "chapter": "4",
@@ -532,12 +550,14 @@
   {
     "chapter": "4",
     "latin": "interficio (interficĕre)",
-    "dutch": "doden"
+    "dutch": "ik dood",
+    "comment": "doden"
   },
   {
     "chapter": "4",
     "latin": "iubeo (iubēre)",
-    "dutch": "bevelen"
+    "dutch": "ik beveel",
+    "comment": "bevelen"
   },
   {
     "chapter": "4",
@@ -557,12 +577,14 @@
   {
     "chapter": "4",
     "latin": "custodio (custodire)",
-    "dutch": "bewaken / passen op"
+    "dutch": "ik bewaak / pas op",
+    "comment": "bewaken / passen op"
   },
   {
     "chapter": "4",
     "latin": "paro (parare)",
-    "dutch": "gereedmaken / voorbereiden"
+    "dutch": "ik ik maak gereed / bereid voor",
+    "comment": "ik maak gereed / bereid voor"
   },
   {
     "chapter": "4",
@@ -582,7 +604,8 @@
   {
     "chapter": "4",
     "latin": "capio (capĕre)",
-    "dutch": "pakken / (in)nemen"
+    "dutch": "ik pak / neem",
+    "comment": "pakken / nemen"
   },
   {
     "chapter": "4",
@@ -592,17 +615,20 @@
   {
     "chapter": "4",
     "latin": "ago (agĕre)",
-    "dutch": "drijven / voeren / doen / verrichten"
+    "dutch": "ik drijf / voer / doe / verricht",
+    "comment": "drijven / voeren / doen / verrichten"
   },
   {
     "chapter": "4",
     "latin": "appropinquo (appropinquare) + dat.",
-    "dutch": "naderen"
+    "dutch": "ik nader",
+    "comment": "naderen"
   },
   {
     "chapter": "4",
     "latin": "saluto (salutare)",
-    "dutch": "begroeten"
+    "dutch": "ik begroet",
+    "comment": "begroeten"
   },
   {
     "chapter": "4",
@@ -622,7 +648,8 @@
   {
     "chapter": "4",
     "latin": "narro (narrare)",
-    "dutch": "vertellen"
+    "dutch": "ik vertel",
+    "comment": "vertellen"
   },
   {
     "chapter": "5",
@@ -647,47 +674,54 @@
   {
     "chapter": "5",
     "latin": "intro (intrare)",
-    "dutch": "binnenkomen / binnengaan"
+    "dutch": "ik kom binnen / ga naar binnen",
+    "comment": "binnenkomen / binnengaan"
   },
   {
     "chapter": "5",
     "latin": "altus, -a, -um",
-    "dutch": "1. hoog"
+    "dutch": "1. hoog / 2. diep"
   },
   {
     "chapter": "5",
-    "latin": "diep / puer / pueri",
+    "latin": "puer / pueri",
     "dutch": "jongen"
   },
   {
     "chapter": "5",
     "latin": "cognovi",
-    "dutch": "perf. van cognosco (cognoscĕre)"
+    "dutch": "ik heb leren kennen / vernomen",
+    "comment": "perf. van cognosco (cognoscĕre)"
   },
   {
     "chapter": "5",
     "latin": "cognosco (cognoscĕre)",
-    "dutch": "leren kennen / vernemen"
+    "dutch": "ik leer kennen / verneem",
+    "comment": "leren kennen / vernemen"
   },
   {
     "chapter": "5",
     "latin": "dixi",
-    "dutch": "perf. van dico (dicĕre)"
+    "dutch": "ik heb gezegd / gesproken / genoemd",
+    "comment": "perf. van dico (dicĕre)"
   },
   {
     "chapter": "5",
     "latin": "veni",
-    "dutch": "perf. van venio (venire)"
+    "dutch": "ik ben gekomen",
+    "comment": "perf. van venio (venire)"
   },
   {
     "chapter": "5",
     "latin": "gaudeo",
-    "dutch": "(gaudēre) blij zijn / zich verheugen (over)"
+    "dutch": "ik ben blij / verheug me",
+    "comment": "(gaudēre) blij zijn / zich verheugen (over)"
   },
   {
     "chapter": "5",
     "latin": "respondi",
-    "dutch": "perf. van responde (respondēre)"
+    "dutch": "ik heb geantwoord",
+    "comment": "perf. van respondeo (respondēre)"
   },
   {
     "chapter": "5",
@@ -702,27 +736,32 @@
   {
     "chapter": "5",
     "latin": "cingo (cingĕre)",
-    "dutch": "omringen"
+    "dutch": "ik omring",
+    "comment": "omringen"
   },
   {
     "chapter": "5",
     "latin": "deposui",
-    "dutch": "perf. van depono (deponĕre)"
+    "dutch": "ik heb neergelegd / afgelegd",
+    "comment": "perf. van depono (deponĕre)"
   },
   {
     "chapter": "5",
     "latin": "depono (deponĕre)",
-    "dutch": "neerleggen / afleggen"
+    "dutch": "ik leg neer / leg af",
+    "comment": "neerleggen / afleggen"
   },
   {
     "chapter": "5",
     "latin": "accedo (accedĕre)",
-    "dutch": "naderen / (erbij) komen ernaar toe gaan"
+    "dutch": "ik nader / kom erbij / ga ernaar toe",
+    "comment": "naderen, (erbij) komen, ernaar toe gaan"
   },
   {
     "chapter": "5",
     "latin": "iussi",
-    "dutch": "perf. van iubeo (iubēre)"
+    "dutch": "ik heb bevolen",
+    "comment": "perf. van iubeo (iubēre)"
   },
   {
     "chapter": "5",
@@ -732,7 +771,8 @@
   {
     "chapter": "5",
     "latin": "dubito (dubitare)",
-    "dutch": "twijfelen / aarzelen"
+    "dutch": "ik twijfel / aarzel",
+    "comment": "twijfelen / aarzelen"
   },
   {
     "chapter": "5",
@@ -757,12 +797,14 @@
   {
     "chapter": "5",
     "latin": "duxi",
-    "dutch": "perf. van duco (ducĕre)"
+    "dutch": "ik heb geleid / gebracht",
+    "comment": "perf. van duco (ducĕre)"
   },
   {
     "chapter": "5",
     "latin": "duco (ducĕre)",
-    "dutch": "leiden / brengen"
+    "dutch": "ik leid / breng",
+    "comment": "leiden / brengen"
   },
   {
     "chapter": "5",
@@ -782,27 +824,32 @@
   {
     "chapter": "5",
     "latin": "iunxi",
-    "dutch": "perf. van iungo (iungĕre)"
+    "dutch": "ik heb verbonden",
+    "comment": "perf. van iungo (iungĕre)"
   },
   {
     "chapter": "5",
     "latin": "iungo (iungĕre)",
-    "dutch": "verbinden"
+    "dutch": "ik verbind",
+    "comment": "verbinden"
   },
   {
     "chapter": "5",
     "latin": "imposui",
-    "dutch": "perf. van impono (imponĕre)"
+    "dutch": "ik heb opgelegd / geplaatst op",
+    "comment": "perf. van impono (imponĕre) + dat."
   },
   {
     "chapter": "5",
     "latin": "impono (imponĕre) + dat.",
-    "dutch": "leggen op / plaatsen op"
+    "dutch": "ik leg op / plaats op",
+    "comment": "leggen op / plaatsen op"
   },
   {
     "chapter": "5",
     "latin": "cepi",
-    "dutch": "perf. van capio (capĕre)"
+    "dutch": "ik heb gepakt / ingenomen",
+    "comment": "perf. van capio (capĕre)"
   },
   {
     "chapter": "5",
@@ -812,17 +859,19 @@
   {
     "chapter": "5",
     "latin": "flecto (flectĕre)",
-    "dutch": "buigen / veranderen"
+    "dutch": "ik buig / verander",
+    "comment": "buigen / veranderen"
   },
   {
     "chapter": "5",
     "latin": "ut",
-    "dutch": "zoals / zodra"
+    "dutch": "1. zoals / 2. zodra"
   },
   {
     "chapter": "5",
     "latin": "sufficio (sufficĕre)",
-    "dutch": "voldoende zijn"
+    "dutch": "ik ben voldoende",
+    "comment": "voldoende zijn"
   },
   {
     "chapter": "5",
@@ -837,27 +886,32 @@
   {
     "chapter": "5",
     "latin": "aperui",
-    "dutch": "perf. van aperio (aperire)"
+    "dutch": "ik heb geopend",
+    "comment": "perf. van aperio (aperire)"
   },
   {
     "chapter": "5",
     "latin": "aperio (aperire)",
-    "dutch": "openen"
+    "dutch": "ik open",
+    "comment": "openen"
   },
   {
     "chapter": "5",
     "latin": "fui",
-    "dutch": "perf. van sum (esse)"
+    "dutch": "ik ben geweest",
+    "comment": "perf. van sum (esse)"
   },
   {
     "chapter": "5",
     "latin": "potui",
-    "dutch": "perf. van possum (posse)"
+    "dutch": "ik heb gekund",
+    "comment": "perf. van possum (posse)"
   },
   {
     "chapter": "5",
     "latin": "missi",
-    "dutch": "perf. van mitto (mittĕre)"
+    "dutch": "ik heb gestuurd",
+    "comment": "perf. van mitto (mittĕre)"
   },
   {
     "chapter": "6",
@@ -877,7 +931,7 @@
   {
     "chapter": "6",
     "latin": "cum (voegwoord)",
-    "dutch": "toen / wanneer"
+    "dutch": "1. toen / 2. wanneer"
   },
   {
     "chapter": "6",
@@ -887,17 +941,20 @@
   {
     "chapter": "6",
     "latin": "pugno (pugnare)",
-    "dutch": "vechten"
+    "dutch": "ik vecht",
+    "comment": "vechten"
   },
   {
     "chapter": "6",
     "latin": "petivi",
-    "dutch": "perf. van peto (petĕre)"
+    "dutch": "ik heb gestreefd naar / gevraagd / ben gegaan naar",
+    "comment": "perf. van peto (petĕre)"
   },
   {
     "chapter": "6",
     "latin": "peto (petĕre)",
-    "dutch": "streven naar / proberen te bereiken / vragen / gaan naar / afgaan op"
+    "dutch": "ik streef naar / probeer te bereiken / vraag / ga naar / ga af op",
+    "comment": "1. streven naar, proberen te bereiken / 2. vragen / 3. gaan naar, afgaan op"
   },
   {
     "chapter": "6",
@@ -907,17 +964,20 @@
   {
     "chapter": "6",
     "latin": "cecidi",
-    "dutch": "perf. van cado (cadĕre)"
+    "dutch": "ik ben gevallen / gesneuveld",
+    "comment": "perf. van cado (cadĕre)"
   },
   {
     "chapter": "6",
     "latin": "cado (cadĕre)",
-    "dutch": "vallen / sneuvelen"
+    "dutch": "ik val / sneuvel",
+    "comment": "vallen / sneuvelen"
   },
   {
     "chapter": "6",
     "latin": "interfeci",
-    "dutch": "perf. van interficio (interficĕre)"
+    "dutch": "ik heb gedood",
+    "comment": "perf. van interficio (interficĕre)"
   },
   {
     "chapter": "6",
@@ -972,7 +1032,8 @@
   {
     "chapter": "6",
     "latin": "pareo (parēre) + dat.",
-    "dutch": "gehoorzamen"
+    "dutch": "ik gehoorzaam",
+    "comment": "gehoorzamen"
   },
   {
     "chapter": "6",
@@ -1002,17 +1063,20 @@
   {
     "chapter": "6",
     "latin": "timeo (timēre)",
-    "dutch": "vrezen / bang zijn (voor)"
+    "dutch": "ik vrees / ben bang voor",
+    "comment": "vrezen / bang zijn (voor)"
   },
   {
     "chapter": "6",
     "latin": "statui",
-    "dutch": "perf. van statuo (statuĕre)"
+    "dutch": "ik heb besloten / geplaatst",
+    "comment": "perf. van statuo (statuĕre)"
   },
   {
     "chapter": "6",
     "latin": "statuo (statuĕre) + inf.",
-    "dutch": "besluiten"
+    "dutch": "ik besluit",
+    "comment": "besluiten"
   },
   {
     "chapter": "6",
@@ -1022,7 +1086,7 @@
   {
     "chapter": "6",
     "latin": "ei (dat.)",
-    "dutch": "(aan) hem / haar"
+    "dutch": "aan hem / haar"
   },
   {
     "chapter": "6",
@@ -1052,17 +1116,20 @@
   {
     "chapter": "6",
     "latin": "genui",
-    "dutch": "perf. van gigno (gignĕre)"
+    "dutch": "ik heb voortgebracht / gebaard",
+    "comment": "perf. van gigno (gignĕre)"
   },
   {
     "chapter": "6",
     "latin": "gigno (gignĕre)",
-    "dutch": "voortbrengen / baren"
+    "dutch": "ik breng voort / baar",
+    "comment": "voortbrengen / baren"
   },
   {
     "chapter": "6",
     "latin": "libero (liberare) + abl.",
-    "dutch": "bevrijden van"
+    "dutch": "ik bevrijd van",
+    "comment": "bevrijden van"
   },
   {
     "chapter": "6",
@@ -1077,7 +1144,8 @@
   {
     "chapter": "6",
     "latin": "movi",
-    "dutch": "perf. van moveo (movēre)"
+    "dutch": "ik heb bewogen",
+    "comment": "perf. van moveo (movēre)"
   },
   {
     "chapter": "7",
@@ -1092,7 +1160,8 @@
   {
     "chapter": "7",
     "latin": "habui",
-    "dutch": "perf. van habeo (habēre)"
+    "dutch": "ik heb gehad",
+    "comment": "perf. van habeo (habēre)"
   },
   {
     "chapter": "7",
@@ -1102,12 +1171,8 @@
   {
     "chapter": "7",
     "latin": "soleo (solēre)",
-    "dutch": "de gewoonte hebben,"
-  },
-  {
-    "chapter": "7",
-    "latin": "gewoonlijk",
-    "dutch": "doen"
+    "dutch": "ik ben gewoon / pleeg te doen",
+    "comment": "de gewoonte hebben, gewoonlijk doen"
   },
   {
     "chapter": "7",
@@ -1122,7 +1187,8 @@
   {
     "chapter": "7",
     "latin": "invito (invitare)",
-    "dutch": "uitnodigen"
+    "dutch": "ik nodig uit",
+    "comment": "uitnodigen"
   },
   {
     "chapter": "7",
@@ -1142,12 +1208,14 @@
   {
     "chapter": "7",
     "latin": "fregi",
-    "dutch": "perf. van frango (frangĕre)"
+    "dutch": "ik heb gebroken",
+    "comment": "perf. van frango (frangĕre)"
   },
   {
     "chapter": "7",
     "latin": "frango (frangĕre)",
-    "dutch": "breken"
+    "dutch": "ik breek",
+    "comment": "breken"
   },
   {
     "chapter": "7",
@@ -1167,7 +1235,8 @@
   {
     "chapter": "7",
     "latin": "parco (parcĕre) + dat.",
-    "dutch": "sparen"
+    "dutch": "ik spaar",
+    "comment": "sparen"
   },
   {
     "chapter": "7",
@@ -1177,7 +1246,8 @@
   {
     "chapter": "7",
     "latin": "compleo (complēre)",
-    "dutch": "vullen"
+    "dutch": "ik vul",
+    "comment": "vullen"
   },
   {
     "chapter": "7",
@@ -1202,7 +1272,8 @@
   {
     "chapter": "7",
     "latin": "neco (necare)",
-    "dutch": "doden"
+    "dutch": "ik dood",
+    "comment": "doden"
   },
   {
     "chapter": "7",
@@ -1212,7 +1283,8 @@
   {
     "chapter": "7",
     "latin": "servo (servare)",
-    "dutch": "redden / beschermen"
+    "dutch": "ik red / bescherm",
+    "comment": "redden / beschermen"
   },
   {
     "chapter": "7",
@@ -1222,7 +1294,8 @@
   {
     "chapter": "7",
     "latin": "vivo (vivĕre)",
-    "dutch": "leven"
+    "dutch": "ik leef",
+    "comment": "leven"
   },
   {
     "chapter": "7",
@@ -1232,7 +1305,8 @@
   {
     "chapter": "7",
     "latin": "puto (putare)",
-    "dutch": "menen / (+ 2 acc.) beschouwen als"
+    "dutch": "ik meen / beschouw als",
+    "comment": "1. menen / 2. (+2 acc.) beschouwen als"
   },
   {
     "chapter": "7",
@@ -1267,7 +1341,8 @@
   {
     "chapter": "7",
     "latin": "aestimo (aestimare)",
-    "dutch": "schatten / waard achten / beoordelen"
+    "dutch": "ik schat / acht waard / beoordeel",
+    "comment": "1. schatten, waard achten / 2. beoordelen"
   },
   {
     "chapter": "7",
@@ -1276,18 +1351,13 @@
   },
   {
     "chapter": "7",
-    "latin": "inferior, -or, -us",
-    "dutch": "1. lager"
-  },
-  {
-    "chapter": "7",
-    "latin": "(inferioris)",
-    "dutch": "2. minder / zwakker"
+    "latin": "inferior, -or, -us (inferioris)",
+    "dutch": "1. lager / 2. minder, zwakker"
   },
   {
     "chapter": "7",
     "latin": "quemadmodum",
-    "dutch": "hoe? / (zo)als"
+    "dutch": "1. hoe? / 2. (zo)als"
   },
   {
     "chapter": "7",
@@ -1347,7 +1417,8 @@
   {
     "chapter": "8",
     "latin": "exerceo (exercēre)",
-    "dutch": "(uit)oefenen"
+    "dutch": "ik oefen",
+    "comment": "oefenen"
   },
   {
     "chapter": "8",
@@ -1367,12 +1438,14 @@
   {
     "chapter": "8",
     "latin": "trado (tradĕre)",
-    "dutch": "overhandigen / uitleveren / overleveren"
+    "dutch": "ik overhandig / lever uit / lever over",
+    "comment": "overhandigen / uitleveren / overleveren"
   },
   {
     "chapter": "8",
     "latin": "tradidi",
-    "dutch": "perf. van trado (tradĕre)"
+    "dutch": "ik heb overhandigd / uitgeleverd / overgeleverd",
+    "comment": "perf. van trado (tradĕre)"
   },
   {
     "chapter": "8",
@@ -1387,12 +1460,12 @@
   {
     "chapter": "8",
     "latin": "hic, haec, hoc (huius)",
-    "dutch": "deze / dit / hij / zij / het"
+    "dutch": "deze / dit"
   },
   {
     "chapter": "8",
     "latin": "is, ea, id (eius)",
-    "dutch": "hij / zij / het / deze / dit / die / dat"
+    "dutch": "1. hij / zij / het / 2. deze / dit; die / dat"
   },
   {
     "chapter": "8",
@@ -1422,12 +1495,14 @@
   {
     "chapter": "8",
     "latin": "vici",
-    "dutch": "perf. van vinco (vincĕre)"
+    "dutch": "ik heb overwonnen / overtroffen",
+    "comment": "perf. van vinco (vincĕre)"
   },
   {
     "chapter": "8",
     "latin": "vinco (vincĕre)",
-    "dutch": "overwinnen / overtreffen"
+    "dutch": "ik overwin / overtref",
+    "comment": "overwinnen / overtreffen"
   },
   {
     "chapter": "8",
@@ -1447,12 +1522,14 @@
   {
     "chapter": "8",
     "latin": "dedi",
-    "dutch": "perf. van do (dare)"
+    "dutch": "ik heb gegeven",
+    "comment": "perf. van do (dare)"
   },
   {
     "chapter": "8",
     "latin": "egi",
-    "dutch": "perf. van ago (agĕre)"
+    "dutch": "ik heb gedaan / verricht / gevoerd",
+    "comment": "perf. van ago (agĕre)"
   },
   {
     "chapter": "8",
@@ -1462,7 +1539,7 @@
   {
     "chapter": "8",
     "latin": "nobiscum",
-    "dutch": "met ons ("
+    "dutch": "met ons (=cum nobis)"
   },
   {
     "chapter": "8",
@@ -1471,13 +1548,13 @@
   },
   {
     "chapter": "8",
-    "latin": "virgo, virginis (v) meisje, maagd",
+    "latin": "virgo, virginis (v)",
     "dutch": "meisje / maagd"
   },
   {
     "chapter": "8",
     "latin": "ludus",
-    "dutch": "spel / school"
+    "dutch": "1. spel / 2. school"
   },
   {
     "chapter": "8",
@@ -1497,12 +1574,14 @@
   {
     "chapter": "8",
     "latin": "rupi",
-    "dutch": "perf. van rumpo (rumpĕre)"
+    "dutch": "ik heb gebroken / doorbroken",
+    "comment": "perf. van rumpo (rumpĕre)"
   },
   {
     "chapter": "8",
     "latin": "rumpo",
-    "dutch": "(rumpĕre) breken / doorbreken"
+    "dutch": "ik breek / doorbreek",
+    "comment": "(rumpĕre) breken / doorbreken"
   },
   {
     "chapter": "8",
@@ -1542,7 +1621,8 @@
   {
     "chapter": "8",
     "latin": "dimitto (dimittĕre)",
-    "dutch": "wegsturen"
+    "dutch": "ik stuur weg / laat gaan",
+    "comment": "weg sturen / laten gaan"
   },
   {
     "chapter": "8",
@@ -1552,7 +1632,8 @@
   {
     "chapter": "8",
     "latin": "taceo (tacēre)",
-    "dutch": "zwijgen"
+    "dutch": "ik zwijg",
+    "comment": "zwijgen"
   },
   {
     "chapter": "9",
@@ -1562,47 +1643,55 @@
   {
     "chapter": "9",
     "latin": "transeo (transire)",
-    "dutch": "overgaan / oversteken / voorbijgaan (van tijd)"
+    "dutch": "ik ga over / steek over / ga voorbij",
+    "comment": "1. overgaan, oversteken / 2. voorbijgaan (van tijd)"
   },
   {
     "chapter": "9",
     "latin": "sustuli",
-    "dutch": "perf. van tollo (tollĕre)"
+    "dutch": "ik heb opgetild / opgepakt / weggenomen",
+    "comment": "perf. van tollo (tollĕre)"
   },
   {
     "chapter": "9",
     "latin": "tollo (tollĕre)",
-    "dutch": "optillen / oppakken / wegnemen"
+    "dutch": "ik til op / pak op / neem weg",
+    "comment": "1. optillen, oppakken / 2. wegnemen"
   },
   {
     "chapter": "9",
     "latin": "coepi",
-    "dutch": "(perf.) ik ben begonnen / ik begon"
+    "dutch": "ik ben begonnen / ik begon",
+    "comment": "(perf.) van coepi"
   },
   {
     "chapter": "9",
     "latin": "finxi",
-    "dutch": "perf. van fingo (fingĕre)"
+    "dutch": "ik heb gevormd / verzonnen",
+    "comment": "perf. van fingo (fingĕre)"
   },
   {
     "chapter": "9",
     "latin": "fingo (fingĕre)",
-    "dutch": "vormen / verzinnen"
+    "dutch": "ik vorm / verzin",
+    "comment": "1. vormen / 2. verzinnen"
   },
   {
     "chapter": "9",
     "latin": "secum",
-    "dutch": "met / bij zichzelf ("
+    "dutch": "met / bij zichzelf (= cum se)"
   },
   {
     "chapter": "9",
     "latin": "feci",
-    "dutch": "perf. van facio (facĕre)"
+    "dutch": "ik heb gemaakt / gedaan",
+    "comment": "perf. van facio (facĕre)"
   },
   {
     "chapter": "9",
     "latin": "facio (facĕre)",
-    "dutch": "maken / doen"
+    "dutch": "ik maak / doe",
+    "comment": "1. maken / 2. doen"
   },
   {
     "chapter": "9",
@@ -1617,17 +1706,20 @@
   {
     "chapter": "9",
     "latin": "prohibeo (prohibēre)",
-    "dutch": "verhinderen"
+    "dutch": "ik verhinder",
+    "comment": "verhinderen"
   },
   {
     "chapter": "9",
     "latin": "surrexi",
-    "dutch": "perf. van surgo (surgĕre)"
+    "dutch": "ik ben opgestaan / overeind gekomen",
+    "comment": "perf. van surgo (surgĕre)"
   },
   {
     "chapter": "9",
     "latin": "surgo (surgĕre)",
-    "dutch": "zich oprichten / opstaan"
+    "dutch": "ik richt me op / sta op",
+    "comment": "zich oprichten/ opstaan"
   },
   {
     "chapter": "9",
@@ -1642,7 +1734,8 @@
   {
     "chapter": "9",
     "latin": "praebeo (praebēre)",
-    "dutch": "verschaffen / aanbieden"
+    "dutch": "ik verschaf / bied aan",
+    "comment": "verschaffen, aanbieden"
   },
   {
     "chapter": "9",
@@ -1657,7 +1750,8 @@
   {
     "chapter": "9",
     "latin": "iudico (iudicare)",
-    "dutch": "oordelen"
+    "dutch": "ik oordeel",
+    "comment": "oordelen"
   },
   {
     "chapter": "9",
@@ -1672,17 +1766,129 @@
   {
     "chapter": "9",
     "latin": "possideo (possidēre)",
-    "dutch": "bezitten"
+    "dutch": "ik bezit",
+    "comment": "bezitten"
   },
   {
     "chapter": "9",
     "latin": "voco (vocare)",
-    "dutch": "roepen / noemen"
+    "dutch": "ik roep / noem",
+    "comment": "1. roepen / 2. noemen"
   },
   {
     "chapter": "9",
     "latin": "humus (v)",
     "dutch": "grond"
+  },
+  {
+    "chapter": "9",
+    "latin": "fugi",
+    "dutch": "ik ben gevlucht",
+    "comment": "perf. van fugio (fugĕre)"
+  },
+  {
+    "chapter": "9",
+    "latin": "lapis, lapidis (m)",
+    "dutch": "steen"
+  },
+  {
+    "chapter": "9",
+    "latin": "ob + acc.",
+    "dutch": "wegens"
+  },
+  {
+    "chapter": "9",
+    "latin": "ut + ind.",
+    "dutch": "1. zoals / 2. zodra"
+  },
+  {
+    "chapter": "9",
+    "latin": "intereo (interire)",
+    "dutch": "ik sterf",
+    "comment": "sterven"
+  },
+  {
+    "chapter": "9",
+    "latin": "preater + acc.",
+    "dutch": "1. behalve / 2. voorbij"
+  },
+  {
+    "chapter": "9",
+    "latin": "genus, generis (o)",
+    "dutch": "1. afkomst, geslacht / 2. soort"
+  },
+  {
+    "chapter": "9",
+    "latin": "vel",
+    "dutch": "of"
+  },
+  {
+    "chapter": "9",
+    "latin": "cum + ind",
+    "dutch": "1. toen / 2. wanneer"
+  },
+  {
+    "chapter": "9",
+    "latin": "humanus, -a, -um",
+    "dutch": "menselijk"
+  },
+  {
+    "chapter": "9",
+    "latin": "mulier, mulieris (v)",
+    "dutch": "1. vrouw / 2. echtgenote, getrouwde vrouw"
+  },
+  {
+    "chapter": "9",
+    "latin": "ut + conj.",
+    "dutch": "1 (op)dat, om te / 2. zodat"
+  },
+  {
+    "chapter": "9",
+    "latin": "vir, viri",
+    "dutch": "man"
+  },
+  {
+    "chapter": "9",
+    "latin": "iacto (iactare)",
+    "dutch": "ik werp / slinger / ik schep op, poch",
+    "comment": "1. werpen, slingeren / 2. opscheppen / pochen"
+  },
+  {
+    "chapter": "9",
+    "latin": "propter + acc.",
+    "dutch": "vanwege, door"
+  },
+  {
+    "chapter": "9",
+    "latin": "interii",
+    "dutch": "ik ben gestorven",
+    "comment": "perf. van intereo (interire)"
+  },
+  {
+    "chapter": "9",
+    "latin": "solitudo, solitudinis (v)",
+    "dutch": "eenzaamheid"
+  },
+  {
+    "chapter": "9",
+    "latin": "afficio (afficĕre)",
+    "dutch": "iemand (acc.) (met) iets (abl.) aandoen"
+  },
+  {
+    "chapter": "9",
+    "latin": "cum + conj.",
+    "dutch": "1. toen, nadat / 2. omdat / 3. hoewel"
+  },
+  {
+    "chapter": "9",
+    "latin": "fugio (fugĕre)",
+    "dutch": "ik vlucht",
+    "comment": "vluchten"
+  },
+  {
+    "chapter": "9",
+    "latin": "par, paris (+ dat.)",
+    "dutch": "gelijk (aan), opgewassen (tegen)"
   },
   {
     "chapter": "10",
@@ -1702,32 +1908,38 @@
   {
     "chapter": "10",
     "latin": "scripsi",
-    "dutch": "perf. van scribo (scribĕre)"
+    "dutch": "ik heb geschreven",
+    "comment": "perf. van scribo (scribĕre)"
   },
   {
     "chapter": "10",
-    "latin": "scribo",
-    "dutch": "(scribĕre) schrijven"
+    "latin": "scribo (scribĕre)",
+    "dutch": "ik schrijf",
+    "comment": "schrijven"
   },
   {
     "chapter": "10",
     "latin": "transtuli",
-    "dutch": "perf. van transfero (transferre)"
+    "dutch": "ik heb overgebracht / overgedragen",
+    "comment": "perf. van transfero (transferre)"
   },
   {
     "chapter": "10",
     "latin": "transfero (transferre)",
-    "dutch": "overbrengen / overdragen"
+    "dutch": "ik breng over / draag over",
+    "comment": "overbrengen / overdragen"
   },
   {
     "chapter": "10",
     "latin": "abii",
-    "dutch": "perf. van abeo (abire)"
+    "dutch": "ik ben weggegaan",
+    "comment": "perf. van abeo (abire)"
   },
   {
     "chapter": "10",
     "latin": "abeo (abire)",
-    "dutch": "weggaan"
+    "dutch": "ik ga weg",
+    "comment": "weg gaan"
   },
   {
     "chapter": "10",
@@ -1737,12 +1949,8 @@
   {
     "chapter": "10",
     "latin": "impero (imperare)",
-    "dutch": "1. bevelen (aan)"
-  },
-  {
-    "chapter": "10",
-    "latin": "(+ dat.)",
-    "dutch": "2. heersen (over)"
+    "dutch": "ik beveel (aan) / heers over",
+    "comment": "1. bevelen (aan) / 2. heersen (over)"
   },
   {
     "chapter": "10",
@@ -1752,7 +1960,8 @@
   {
     "chapter": "10",
     "latin": "statuo (statuĕre)",
-    "dutch": "plaatsen / besluiten"
+    "dutch": "ik plaats / besluit",
+    "comment": "1. plaatsen / 2. besluiten"
   },
   {
     "chapter": "10",
@@ -1762,12 +1971,14 @@
   {
     "chapter": "10",
     "latin": "exii",
-    "dutch": "perf. van exeo (exire)"
+    "dutch": "ik ben uitgegaan / weggegaan",
+    "comment": "perf. van exeo (exire)"
   },
   {
     "chapter": "10",
     "latin": "exeo (exire)",
-    "dutch": "gaan uit / weggaan"
+    "dutch": "ik ga uit / ga weg",
+    "comment": "gaan uit / weggaan"
   },
   {
     "chapter": "10",
@@ -1782,12 +1993,14 @@
   {
     "chapter": "10",
     "latin": "occidi",
-    "dutch": "perf. van occido (occidĕre)"
+    "dutch": "ik heb gedood",
+    "comment": "perf. van occido (occidĕre)"
   },
   {
     "chapter": "10",
     "latin": "occido (occidĕre)",
-    "dutch": "doden"
+    "dutch": "ik dood",
+    "comment": "doden"
   },
   {
     "chapter": "10",
@@ -1797,12 +2010,14 @@
   {
     "chapter": "10",
     "latin": "recepi",
-    "dutch": "perf. van recipio (recipĕre)"
+    "dutch": "ik heb teruggekregen / ontvangen",
+    "comment": "perf. van recipio (recipĕre)"
   },
   {
     "chapter": "10",
     "latin": "recipio (recipĕre)",
-    "dutch": "terugkrijgen / ontvangen"
+    "dutch": "ik krijg terug / ontvang",
+    "comment": "1. terug krijgen / 2. ontvangen"
   },
   {
     "chapter": "10",
@@ -1817,12 +2032,14 @@
   {
     "chapter": "10",
     "latin": "scio (scire)",
-    "dutch": "weten"
+    "dutch": "ik weet",
+    "comment": "weten"
   },
   {
     "chapter": "10",
     "latin": "cresco (crescĕre)",
-    "dutch": "groeien"
+    "dutch": "ik groei",
+    "comment": "groeien"
   },
   {
     "chapter": "10",
@@ -1842,7 +2059,8 @@
   {
     "chapter": "10",
     "latin": "opto (optare)",
-    "dutch": "wensen"
+    "dutch": "ik wens",
+    "comment": "wensen"
   },
   {
     "chapter": "10",
@@ -1862,7 +2080,7 @@
   {
     "chapter": "10",
     "latin": "coniunx, coniugis (m / v)",
-    "dutch": "echtgenote / vrouw / echtgenoot / man"
+    "dutch": "1. echtgenote / vrouw / 2. echtgenoot / man"
   },
   {
     "chapter": "10",
@@ -1877,7 +2095,7 @@
   {
     "chapter": "10",
     "latin": "se (acc.)",
-    "dutch": "zich / hij / zij (ev.) / zij (mv.) (in AcI)"
+    "dutch": "1. zich / 2. hij/zij (ev.), zij (mv.) (in AcI)"
   },
   {
     "chapter": "11",
@@ -1897,7 +2115,8 @@
   {
     "chapter": "11",
     "latin": "dictus",
-    "dutch": "ppp van dico (dicĕre)"
+    "dutch": "gezegd / genoemd",
+    "comment": "ppp van dico (dicĕre)"
   },
   {
     "chapter": "11",
@@ -1917,7 +2136,8 @@
   {
     "chapter": "11",
     "latin": "moror, morari",
-    "dutch": "verblijven / ophouden / vertragen"
+    "dutch": "ik verblijf / houd me op / vertraag",
+    "comment": "verblijven / ophouden / vertragen"
   },
   {
     "chapter": "11",
@@ -1927,27 +2147,32 @@
   {
     "chapter": "11",
     "latin": "occisus",
-    "dutch": "ppp van occido (occidĕre)"
+    "dutch": "gedood",
+    "comment": "ppp van occido (occidĕre)"
   },
   {
     "chapter": "11",
     "latin": "abstuli, ablatus",
-    "dutch": "perf. en ppp van aufero (auferre)"
+    "dutch": "weggenomen / ontnomen",
+    "comment": "perf. en ppp van aufero (auferre)"
   },
   {
     "chapter": "11",
     "latin": "aufero (auferre) (+ abl.)",
-    "dutch": "wegnemen / ontnemen (aan)"
+    "dutch": "ik neem weg / ontneem (aan)",
+    "comment": "wegnemen, ontnemen (aan)"
   },
   {
     "chapter": "11",
-    "latin": "traxi, tractus perf. en ppp van traho",
-    "dutch": "perf. en ppp van traho (trahĕre)"
+    "latin": "traxi, tractus",
+    "dutch": "getrokken",
+    "comment": "perf. en ppp van traho (trahĕre)"
   },
   {
     "chapter": "11",
     "latin": "traho (trahĕre)",
-    "dutch": "trekken"
+    "dutch": "ik trek",
+    "comment": "trekken"
   },
   {
     "chapter": "11",
@@ -1967,22 +2192,26 @@
   {
     "chapter": "11",
     "latin": "quaesivi, quaesitus",
-    "dutch": "perf. en ppp van quaero (quaerĕre)"
+    "dutch": "gezocht",
+    "comment": "perf. en ppp van quaero (quaerĕre)"
   },
   {
     "chapter": "11",
     "latin": "fero (ferre)",
-    "dutch": "brengen / dragen / verdragen"
+    "dutch": "ik breng / draag / verdraag",
+    "comment": "brengen / dragen / verdragen"
   },
   {
     "chapter": "11",
     "latin": "invenio (invenire)",
-    "dutch": "vinden / aantreffen"
+    "dutch": "ik vind / tref aan",
+    "comment": "vinden / aantreffen"
   },
   {
     "chapter": "11",
     "latin": "inveni",
-    "dutch": "perf. van invenio (invenire)"
+    "dutch": "ik heb gevonden / aangetroffen",
+    "comment": "perf. van invenio (invenire)"
   },
   {
     "chapter": "11",
@@ -1997,12 +2226,14 @@
   {
     "chapter": "11",
     "latin": "pepuli, pulsus",
-    "dutch": "perf. en ppp van pello (pellĕre)"
+    "dutch": "verdreven",
+    "comment": "perf. en ppp van pello (pellĕre)"
   },
   {
     "chapter": "11",
     "latin": "pello (pellĕre) (+ abl.)",
-    "dutch": "(ver)drijven (van)"
+    "dutch": "ik drijf (van)",
+    "comment": "(ver)drijven (van)"
   },
   {
     "chapter": "11",
@@ -2012,12 +2243,14 @@
   {
     "chapter": "11",
     "latin": "facio (facĕre) + 2 acc.",
-    "dutch": "maken tot"
+    "dutch": "ik maak tot",
+    "comment": "maken tot"
   },
   {
     "chapter": "11",
     "latin": "natus sum",
-    "dutch": "perf. van nascor (nasci)"
+    "dutch": "ik ben geboren",
+    "comment": "perf. van nascor (nasci)"
   },
   {
     "chapter": "11",
@@ -2042,7 +2275,8 @@
   {
     "chapter": "11",
     "latin": "reperio (reperire)",
-    "dutch": "vinden / te weten komen"
+    "dutch": "ik vind / kom te weten",
+    "comment": "vinden, te weten komen"
   },
   {
     "chapter": "11",
@@ -2052,7 +2286,8 @@
   {
     "chapter": "11",
     "latin": "alo (alĕre)",
-    "dutch": "(op)voeden / grootbrengen"
+    "dutch": "ik voed / breng groot",
+    "comment": "(op)voeden / grootbrengen"
   },
   {
     "chapter": "11",
@@ -2062,27 +2297,32 @@
   {
     "chapter": "11",
     "latin": "revoco (revocare)",
-    "dutch": "terugroepen"
+    "dutch": "ik roep terug",
+    "comment": "terugroepen"
   },
   {
     "chapter": "11",
     "latin": "recessi",
-    "dutch": "perf. van recedo (recedĕre)"
+    "dutch": "ik ben teruggegaan / weggegaan",
+    "comment": "perf. van recedo (recedĕre)"
   },
   {
     "chapter": "11",
     "latin": "recedo (recedĕre)",
-    "dutch": "teruggaan / weggaan"
+    "dutch": "ik ga terug / ga weg",
+    "comment": "teruggaan / weggaan"
   },
   {
     "chapter": "11",
     "latin": "condidi",
-    "dutch": "perf. van condo (condĕre)"
+    "dutch": "ik heb gesticht / opgeborgen / verborgen",
+    "comment": "perf. van condo (condĕre)"
   },
   {
     "chapter": "11",
     "latin": "condo (condĕre)",
-    "dutch": "stichten / opbergen / verbergen"
+    "dutch": "ik sticht / berg op / verberg",
+    "comment": "1. stichten / 2. opbergen, verbergen"
   },
   {
     "chapter": "11",
@@ -2092,17 +2332,20 @@
   {
     "chapter": "11",
     "latin": "appello (appellare)",
-    "dutch": "noemen / toespreken"
+    "dutch": "ik noem / spreek toe",
+    "comment": "1. noemen / 2. toespreken"
   },
   {
     "chapter": "11",
     "latin": "missus",
-    "dutch": "ppp van mitto (mittĕre)"
+    "dutch": "gestuurd / gezonden",
+    "comment": "ppp van mitto (mittĕre)"
   },
   {
     "chapter": "11",
     "latin": "captus",
-    "dutch": "ppp van capio (capĕre)"
+    "dutch": "gevangen / ingenomen",
+    "comment": "ppp van capio (capĕre)"
   },
   {
     "chapter": "12",
@@ -2112,22 +2355,26 @@
   {
     "chapter": "12",
     "latin": "volui",
-    "dutch": "perf. van volo (velle)"
+    "dutch": "ik heb gewild",
+    "comment": "perf. van volo (velle)"
   },
   {
     "chapter": "12",
     "latin": "volo (velle)",
-    "dutch": "willen"
+    "dutch": "ik wil",
+    "comment": "willen"
   },
   {
     "chapter": "12",
     "latin": "deprehendi",
-    "dutch": "perf. van deprehendo (deprehendĕre)"
+    "dutch": "ik heb gegrepen / betrapt",
+    "comment": "perf. van deprehendo (deprehendĕre)"
   },
   {
     "chapter": "12",
-    "latin": "deprehendo",
-    "dutch": "grijpen / betrappen (deprehendĕre)"
+    "latin": "deprehendo (deprehendĕre)",
+    "dutch": "ik grijp / betrap",
+    "comment": "grijpen / betrappen"
   },
   {
     "chapter": "12",
@@ -2137,12 +2384,14 @@
   {
     "chapter": "12",
     "latin": "perduxi",
-    "dutch": "perf. van perduco (perducĕre)"
+    "dutch": "ik heb gebracht / geleid (tot)",
+    "comment": "perf. van perduco (perducĕre)"
   },
   {
     "chapter": "12",
     "latin": "perduco (perducĕre)",
-    "dutch": "brengen / leiden (tot)"
+    "dutch": "ik breng / leid (tot)",
+    "comment": "brengen / leiden (tot)"
   },
   {
     "chapter": "12",
@@ -2167,7 +2416,8 @@
   {
     "chapter": "12",
     "latin": "revertor (reverti)",
-    "dutch": "terugkeren"
+    "dutch": "ik keer terug",
+    "comment": "terugkeren"
   },
   {
     "chapter": "12",
@@ -2182,12 +2432,13 @@
   {
     "chapter": "12",
     "latin": "ortus sum",
-    "dutch": "perf. van orior (oriri)"
+    "dutch": "ik ben ontstaan / begonnen / opgekomen",
+    "comment": "perf. van orior (oriri)"
   },
   {
     "chapter": "12",
     "latin": "orior (oriri)",
-    "dutch": "ontstaan / beginnen / opkomen (van de zon)"
+    "dutch": "1. onstaan / beginnen / 2. opkomen (van de zon)"
   },
   {
     "chapter": "12",
@@ -2212,22 +2463,26 @@
   {
     "chapter": "12",
     "latin": "consedi",
-    "dutch": "perf. van consido (considĕre)"
+    "dutch": "ik ben gaan zitten / heb plaatsgenomen",
+    "comment": "perf. van consido (considĕre)"
   },
   {
     "chapter": "12",
     "latin": "consido (considĕre)",
-    "dutch": "gaan zitten"
+    "dutch": "ik ga zitten",
+    "comment": "gaan zitten"
   },
   {
     "chapter": "12",
     "latin": "fleo (flēre)",
-    "dutch": "huilen (om) / (be)wenen"
+    "dutch": "ik huil (om) / ween (om)",
+    "comment": "huilen (om) / (be)wenen"
   },
   {
     "chapter": "12",
     "latin": "pereo (perire)",
-    "dutch": "omkomen / te gronde gaan"
+    "dutch": "ik kom om / ga te gronde",
+    "comment": "omkomen, te gronde gaan"
   },
   {
     "chapter": "12",
@@ -2242,7 +2497,7 @@
   {
     "chapter": "12",
     "latin": "tandem (bijw.)",
-    "dutch": "tenslotte / (uit)eindelijk"
+    "dutch": "tenslotte / eindelijk"
   },
   {
     "chapter": "12",
@@ -2252,7 +2507,8 @@
   {
     "chapter": "12",
     "latin": "exclamo (exclamare)",
-    "dutch": "uitschreeuwen / uitroepen"
+    "dutch": "ik schreeuw uit / roep uit",
+    "comment": "uitschreeuwen / uitroepen"
   },
   {
     "chapter": "12",
@@ -2267,12 +2523,14 @@
   {
     "chapter": "12",
     "latin": "factum",
-    "dutch": "feit / daad / ppp van facio (facĕre)"
+    "dutch": "feit / daad",
+    "comment": "ppp van facio (facĕre)"
   },
   {
     "chapter": "12",
     "latin": "nuntio (nuntiare)",
-    "dutch": "berichten"
+    "dutch": "ik bericht",
+    "comment": "berichten"
   },
   {
     "chapter": "12",
@@ -2317,7 +2575,8 @@
   {
     "chapter": "13",
     "latin": "videor (videri)",
-    "dutch": "schijnen / de indruk wekken"
+    "dutch": "ik schijn / wek de indruk",
+    "comment": "schijnen / de indruk wekken"
   },
   {
     "chapter": "13",
@@ -2342,7 +2601,8 @@
   {
     "chapter": "13",
     "latin": "adduco (adducĕre)",
-    "dutch": "brengen (naar / tot)"
+    "dutch": "ik breng (naar / tot)",
+    "comment": "brengen (naar / tot)"
   },
   {
     "chapter": "13",
@@ -2362,7 +2622,8 @@
   {
     "chapter": "13",
     "latin": "sto (stare)",
-    "dutch": "staan"
+    "dutch": "ik sta",
+    "comment": "staan"
   },
   {
     "chapter": "13",
@@ -2372,7 +2633,8 @@
   {
     "chapter": "13",
     "latin": "laudo (laudare)",
-    "dutch": "prijzen"
+    "dutch": "ik prijs",
+    "comment": "prijzen"
   },
   {
     "chapter": "13",
@@ -2382,7 +2644,8 @@
   {
     "chapter": "13",
     "latin": "fallo (fallĕre)",
-    "dutch": "bedriegen / ontgaan"
+    "dutch": "ik bedrieg / ontga",
+    "comment": "1. bedriegen / 2. ontgaan"
   },
   {
     "chapter": "13",
@@ -2392,7 +2655,8 @@
   {
     "chapter": "13",
     "latin": "cogito (cogitare)",
-    "dutch": "denken (aan) / overwegen"
+    "dutch": "ik denk (aan) / overweeg",
+    "comment": "denken (aan), overwegen"
   },
   {
     "chapter": "13",
@@ -2402,7 +2666,8 @@
   {
     "chapter": "13",
     "latin": "dic",
-    "dutch": "imperativus. ev. van dico (dicĕre)"
+    "dutch": "sprak",
+    "comment": "imperativus. ev. van dico (dicĕre)"
   },
   {
     "chapter": "13",
@@ -2417,7 +2682,8 @@
   {
     "chapter": "13",
     "latin": "loquor (loqui)",
-    "dutch": "spreken"
+    "dutch": "ik spreek",
+    "comment": "spreken"
   },
   {
     "chapter": "13",

@@ -124,7 +124,7 @@ export default function Home() {
 
   if (mode === 'cards') {
     return (
-      <div className="h-full bg-gray-50 dark:bg-gray-900 p-4">
+      <div className="flex-1 flex flex-col items-center justify-center p-4">
         <Flashcards 
           words={filteredWords} 
           onBack={() => setMode('menu')} 
@@ -138,7 +138,7 @@ export default function Home() {
 
   if (mode === 'quiz') {
     return (
-      <div className="h-full bg-gray-50 dark:bg-gray-900 p-4">
+      <div className="flex-1 flex flex-col items-center justify-center p-4">
         <Quiz 
           words={filteredWords} 
           allWords={allWords}
@@ -154,7 +154,7 @@ export default function Home() {
 
   if (mode === 'progress') {
     return (
-      <div className="h-full bg-gray-50 dark:bg-gray-900 p-4">
+      <div className="flex-1 flex flex-col p-4">
         <ProgressView 
           allWords={allWords}
           scores={scores}
@@ -165,10 +165,10 @@ export default function Home() {
   }
 
   return (
-    <div className="h-full bg-gray-50 dark:bg-gray-900 flex items-center justify-center p-4">
+    <div className="flex-1 flex items-center justify-center p-4">
       {!username && <AuthModal onLogin={handleLogin} />}
       
-      <div className="bg-white dark:bg-gray-800 p-4 sm:p-8 rounded-2xl shadow-xl max-w-md w-full border dark:border-gray-700">
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-8 rounded-2xl shadow-xl max-w-md w-full border dark:border-gray-700 min-h-[500px] flex flex-col justify-center">
         <div className="flex justify-between items-start mb-4">
           <div className="text-left">
             <p className="text-[10px] sm:text-xs font-bold text-gray-500 uppercase">User: {username}</p>

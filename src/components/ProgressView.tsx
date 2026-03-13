@@ -32,7 +32,7 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
   };
 
   return (
-    <div className="flex flex-col items-center justify-start p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-4xl mx-auto border dark:border-gray-700 h-full w-full">
+    <div className="flex flex-col items-center justify-start p-4 sm:p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-4xl mx-auto border dark:border-gray-700 flex-1 w-full overflow-hidden">
       <div className="w-full flex justify-between items-center mb-6 sm:mb-8">
         <h2 className="text-2xl sm:text-3xl font-bold text-indigo-900 dark:text-indigo-400">Word Progress</h2>
         <button 
@@ -72,9 +72,16 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
             return (
               <div key={word.id} className="w-full flex flex-col gap-2 group">
                 <div className="flex justify-between items-baseline gap-2">
-                  <span className="font-serif text-base sm:text-lg font-bold text-indigo-900 dark:text-indigo-300 break-words">
-                    {word.latin}
-                  </span>
+                  <div className="flex flex-col">
+                    <span className="font-serif text-base sm:text-lg font-bold text-indigo-900 dark:text-indigo-300 break-words">
+                      {word.latin}
+                    </span>
+                    {word.comment && (
+                      <span className="text-[10px] sm:text-xs text-gray-400 dark:text-gray-500 italic">
+                        ({word.comment})
+                      </span>
+                    )}
+                  </div>
                   <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 italic text-right shrink-0">
                     {word.dutch}
                   </span>
