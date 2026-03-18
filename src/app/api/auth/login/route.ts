@@ -13,16 +13,27 @@ export async function POST(request: Request) {
     const user = await getUser(sub);
     
     if (!user) {
-      // This should ideally not happen if Cognito auth was successful, 
-      // but might if user was deleted from DB but not from Cognito
       return NextResponse.json({ error: 'User data not found in database' }, { status: 404 });
+    }
+
+    // Cleanup and migration: if there are old format scores (that contain '-'),
+    // we should ideally migrate them to the new IDs.
+    // However, without the words list here, we can at least ensure we don't
+    // keep old-format keys if we want the DB to be "clean".
+    const cleanedScores: { [key: string]: number } = {};
+    if (user.scores) {
+      Object.entries(user.scores as Record<string, number>).forEach(([key, val]) => {
+        if (!key.includes('-')) {
+          cleanedScores[key] = val;
+        }
+      });
     }
 
     return NextResponse.json({ 
       success: true, 
       userId: user.userId,
       username: user.username,
-      scores: user.scores || {},
+      scores: cleanedScores,
       stats: user.stats || { wordsPracticed: 0, totalTimeSpent: 0 }
     });
   } catch (error: any) {

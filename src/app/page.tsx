@@ -98,7 +98,13 @@ export default function Home() {
     setScores(prev => {
       const currentScore = prev[wordId] ?? INITIAL_SCORE;
       const newScore = Math.max(MIN_SCORE, Math.min(MAX_SCORE, currentScore + delta));
-      const next = { ...prev, [wordId]: newScore };
+      
+      // Cleanup old format scores from local state too
+      const next: UserScore = {};
+      Object.entries(prev).forEach(([key, val]) => {
+        if (!key.includes('-')) next[key] = val;
+      });
+      next[wordId] = newScore;
       
       if (userId) {
         localStorage.setItem(`latin_scores_${userId}`, JSON.stringify(next));
