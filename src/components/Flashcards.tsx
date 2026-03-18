@@ -120,7 +120,7 @@ export default function Flashcards({ words, onBack, updateScore, scores, userId 
   if (!currentWord) return <div className="dark:text-white">No words available for selected chapters.</div>;
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
+    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
       <h2 className="text-xl sm:text-2xl font-bold mb-2 text-gray-800 dark:text-gray-100 text-center w-full">Flashcards</h2>
       
       <div className="w-full text-center mb-4 flex justify-between px-2">
@@ -154,7 +154,7 @@ export default function Flashcards({ words, onBack, updateScore, scores, userId 
           <div className="absolute inset-y-0 left-0 w-1 bg-red-500 opacity-50"></div>
         )}
 
-        <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 font-bold">{currentWord.latin}</div>
+        <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 font-bold">{currentWord.language}</div>
         {showTranslation && (
           <div className="mt-4 sm:mt-8 text-xl sm:text-2xl text-gray-700 dark:text-gray-300 animate-in fade-in slide-in-from-top-2 duration-300">
             {currentWord.dutch}

@@ -11,6 +11,7 @@ export default function Home() {
   const [allWords, setAllWords] = useState<Word[]>([]);
   const [scores, setScores] = useState<UserScore>({});
   const [stats, setStats] = useState({ wordsPracticed: 0, totalTimeSpent: 0 });
+  const [method, setMethod] = useState<string>('Minerva1');
   const [startChapter, setStartChapter] = useState<string>('1');
   const [endChapter, setEndChapter] = useState<string>('13');
   const [quizSize, setQuizSize] = useState(10);
@@ -18,7 +19,9 @@ export default function Home() {
   const [username, setUsername] = useState<string | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
 
-  const chapters = Array.from(new Set(allWords.map(w => w.chapter))).sort((a, b) => {
+  const methods = Array.from(new Set(allWords.map(w => w.method))).sort();
+
+  const chapters = Array.from(new Set(allWords.filter(w => w.method === method).map(w => w.chapter))).sort((a, b) => {
     const isAEtra = a.toLowerCase() === 'extra';
     const isBEtra = b.toLowerCase() === 'extra';
     if (isAEtra) return 1;
@@ -35,7 +38,12 @@ export default function Home() {
       const words = await fetchWords();
       setAllWords(words);
       
-      const uniqueChapters = Array.from(new Set(words.map(w => w.chapter))).sort((a, b) => {
+      const defaultMethod = 'Minerva1';
+      const availableMethods = Array.from(new Set(words.map(w => w.method)));
+      const initialMethod = availableMethods.includes(defaultMethod) ? defaultMethod : (availableMethods[0] || defaultMethod);
+      setMethod(initialMethod);
+
+      const uniqueChapters = Array.from(new Set(words.filter(w => w.method === initialMethod).map(w => w.chapter))).sort((a, b) => {
         const isAEtra = a.toLowerCase() === 'extra';
         const isBEtra = b.toLowerCase() === 'extra';
         if (isAEtra) return 1;
@@ -112,6 +120,7 @@ export default function Home() {
   };
 
   const filteredWords = allWords.filter(w => {
+    if (w.method !== method) return false;
     const startIndex = chapters.indexOf(startChapter);
     const endIndex = chapters.indexOf(endChapter);
     const wordChapterIndex = chapters.indexOf(w.chapter);
@@ -124,7 +133,7 @@ export default function Home() {
 
   if (mode === 'cards') {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center p-4">
+      <div className="flex-1 flex flex-col items-center justify-center">
         <Flashcards 
           words={filteredWords} 
           onBack={() => setMode('menu')} 
@@ -138,7 +147,7 @@ export default function Home() {
 
   if (mode === 'quiz') {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center p-4">
+      <div className="flex-1 flex flex-col items-center justify-center">
         <Quiz 
           words={filteredWords} 
           allWords={allWords}
@@ -154,7 +163,7 @@ export default function Home() {
 
   if (mode === 'progress') {
     return (
-      <div className="flex-1 flex flex-col p-4">
+      <div className="flex-1 flex flex-col">
         <ProgressView 
           allWords={allWords}
           scores={scores}
@@ -165,10 +174,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex-1 flex items-center justify-center p-4">
+    <div className="flex-1 flex items-center justify-center">
       {!username && <AuthModal onLogin={handleLogin} />}
       
-      <div className="bg-white dark:bg-gray-800 p-4 sm:p-8 rounded-2xl shadow-xl max-w-md w-full border dark:border-gray-700 min-h-[500px] flex flex-col justify-center">
+      <div className="bg-white dark:bg-gray-800 p-4 sm:p-8 rounded-xl sm:rounded-2xl shadow-xl max-w-md w-full border dark:border-gray-700 min-h-[500px] flex flex-col justify-center">
         <div className="flex justify-between items-start mb-4">
           <div className="text-left">
             <p className="text-[10px] sm:text-xs font-bold text-gray-500 uppercase">User: {username}</p>
@@ -183,6 +192,34 @@ export default function Home() {
           <section>
             <h2 className="text-base sm:text-lg font-semibold text-gray-700 dark:text-gray-200 mb-3">Settings</h2>
             <div className="space-y-4">
+              <div>
+                <label className="block text-[10px] text-gray-700 dark:text-gray-300 uppercase font-extrabold mb-1">Method</label>
+                <select 
+                  value={method}
+                  onChange={(e) => {
+                    const newMethod = e.target.value;
+                    setMethod(newMethod);
+                    const methodChapters = Array.from(new Set(allWords.filter(w => w.method === newMethod).map(w => w.chapter))).sort((a, b) => {
+                      const isAEtra = a.toLowerCase() === 'extra';
+                      const isBEtra = b.toLowerCase() === 'extra';
+                      if (isAEtra) return 1;
+                      if (isBEtra) return -1;
+                      const numA = parseInt(a);
+                      const numB = parseInt(b);
+                      if (!isNaN(numA) && !isNaN(numB)) return numA - numB;
+                      return a.localeCompare(b);
+                    });
+                    if (methodChapters.length > 0) {
+                      setStartChapter(methodChapters[0]);
+                      setEndChapter(methodChapters[methodChapters.length - 1]);
+                    }
+                  }}
+                  className="w-full p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm"
+                >
+                  {methods.map(m => <option key={m} value={m}>{m}</option>)}
+                </select>
+              </div>
+
               <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="w-full sm:flex-1">
                   <label className="block text-[10px] text-gray-700 dark:text-gray-300 uppercase font-extrabold mb-1">From Chapter</label>

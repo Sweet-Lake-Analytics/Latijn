@@ -1,0 +1,4634 @@
+[
+  {
+    "id": "Minerva1_001",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "mirus, -a, -um",
+    "dutch": "wonderbaarlijk / schitterend",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_002",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "donum",
+    "dutch": "geschenk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_003",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "accipit",
+    "dutch": "(hij / zij / het) ontvangt / krijgt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_004",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "amat",
+    "dutch": "(hij / zij / het) houdt van / bemint",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_005",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "rex, regem (acc.)",
+    "dutch": "koning",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_006",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "laetus, -a, -um",
+    "dutch": "blij / vrolijk / opgewekt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_007",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "est",
+    "dutch": "(hij / zij / het) is",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_008",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "et",
+    "dutch": "en / ook",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_009",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "per + acc.",
+    "dutch": "doorheen / gedurende",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_010",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "regia",
+    "dutch": "paleis",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_011",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "currit",
+    "dutch": "(hij / zij / het) rent",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_012",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "nunc",
+    "dutch": "nu",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_013",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "mensa",
+    "dutch": "tafel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_014",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "tangit",
+    "dutch": "(hij / zij / het) raakt aan",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_015",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "quoque",
+    "dutch": "ook",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_016",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "in + acc.",
+    "dutch": "naar / naar binnen / in",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_017",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "aurum",
+    "dutch": "goud",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_018",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "mutat",
+    "dutch": "(hij / zij / het) verandert / (hij / zij / het) verwisselt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_019",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "servus",
+    "dutch": "slaaf",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_020",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "cibus",
+    "dutch": "voedsel / eten",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_021",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "vinum",
+    "dutch": "wijn",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_022",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "incipit",
+    "dutch": "(hij / zij / het) begint",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_023",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "statim",
+    "dutch": "meteen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_024",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "silva",
+    "dutch": "bos",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_025",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "errat",
+    "dutch": "(hij / zij / het) zwerft rond / dwaalt / (hij / zij / het) vergist zich",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_026",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "videt",
+    "dutch": "hij / zij / het ziet",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_027",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "deus",
+    "dutch": "god",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_028",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "canit",
+    "dutch": "(hij / zij / het) zingt / (hij / zij / het) speelt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_029",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "certant",
+    "dutch": "(zij) strijden / wedijveren",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_030",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "mons, montem",
+    "dutch": "berg",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_031",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "audit",
+    "dutch": "(hij / zij / het) hoort / luistert",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_032",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "victoria",
+    "dutch": "overwinning",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_033",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "dat",
+    "dutch": "(hij / zij / het) geeft",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_034",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "autem",
+    "dutch": "echter / maar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_035",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "clamat",
+    "dutch": "(hij / zij / het) roept",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_036",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "victor, victorem",
+    "dutch": "(over)winnaar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_037",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "stultus, -a, -um",
+    "dutch": "dom / stom / dwaas",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_038",
+    "method": "Minerva1",
+    "chapter": "2",
+    "language": "habet",
+    "dutch": "(hij / zij / het) heeft / houdt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_039",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "ager, agrum",
+    "dutch": "akker / land",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_040",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "liberi (mv.)",
+    "dutch": "kinderen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_041",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "teneo (tenēre)",
+    "dutch": "ik houd vast",
+    "comment": "(vast)houden"
+  },
+  {
+    "id": "Minerva1_042",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "dea",
+    "dutch": "godin",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_043",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "forte",
+    "dutch": "toevallig",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_044",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "ibi",
+    "dutch": "daar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_045",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "laboro (laborare)",
+    "dutch": "ik span me in / zwoeg / lijd",
+    "comment": "zich inspannen / zwoegen / lijden"
+  },
+  {
+    "id": "Minerva1_046",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "agricola",
+    "dutch": "boer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_047",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "aqua",
+    "dutch": "water",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_048",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "bibo (bibĕre)",
+    "dutch": "ik drink",
+    "comment": "drinken"
+  },
+  {
+    "id": "Minerva1_049",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "sed",
+    "dutch": "maar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_050",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "non",
+    "dutch": "niet",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_051",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "sino (sinĕre)",
+    "dutch": "ik sta toe / laat",
+    "comment": "toestaan / (toe) laten"
+  },
+  {
+    "id": "Minerva1_052",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "cur",
+    "dutch": "waarom",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_053",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "veto (vetare)",
+    "dutch": "ik verbied",
+    "comment": "verbieden"
+  },
+  {
+    "id": "Minerva1_054",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "rogo (rogare)",
+    "dutch": "ik vraag",
+    "comment": "vragen"
+  },
+  {
+    "id": "Minerva1_055",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "meus, -a, -um",
+    "dutch": "mijn",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_056",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "nos (nom. / acc.)",
+    "dutch": "wij / ons",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_057",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "verbum",
+    "dutch": "woord",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_058",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "moveo (movēre)",
+    "dutch": "ik beweeg",
+    "comment": "bewegen"
+  },
+  {
+    "id": "Minerva1_059",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "iratus, -a, -um",
+    "dutch": "boos",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_060",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "dico (dicĕre)",
+    "dutch": "ik zeg / spreek / noem",
+    "comment": "zeggen / spreken / noemen"
+  },
+  {
+    "id": "Minerva1_061",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "noster, -stra, -strum",
+    "dutch": "(van) ons,",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_062",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "ne",
+    "dutch": "(leidt een vraag in; niet vertalen)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_063",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "habito",
+    "dutch": "ik woon",
+    "comment": "(habitare) wonen"
+  },
+  {
+    "id": "Minerva1_064",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "ecce!",
+    "dutch": "kijk!",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_065",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "venio (venire)",
+    "dutch": "ik kom",
+    "comment": "komen"
+  },
+  {
+    "id": "Minerva1_066",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "filius",
+    "dutch": "zoon",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_067",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "magnus, -a, -um",
+    "dutch": "groot",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_068",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "multus, -a, -um",
+    "dutch": "veel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_069",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "ego, me (acc.)",
+    "dutch": "ik / mij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_070",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "valde (bijw.)",
+    "dutch": "erg / zeer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_071",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "sum (esse)",
+    "dutch": "zijn",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_072",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "filia",
+    "dutch": "dochter",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_073",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "unus, -a, -um",
+    "dutch": "één / (als) enige / alleen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_074",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "igitur",
+    "dutch": "dus",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_075",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "sedeo (sedēre)",
+    "dutch": "ik zit",
+    "comment": "ik zit"
+  },
+  {
+    "id": "Minerva1_076",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "omnia (nom. / acc.mv.)",
+    "dutch": "alle dingen / alles",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_077",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "homo, hominem",
+    "dutch": "mens / man",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_078",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "vos (nom. / acc.)",
+    "dutch": "jullie",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_079",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "mater, matrem",
+    "dutch": "moeder",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_080",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "vester, -tra, -trum",
+    "dutch": "(van) jullie (bezittelijk voornaamwoord)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_081",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "iuvo (iuvare)",
+    "dutch": "ik help",
+    "comment": "helpen"
+  },
+  {
+    "id": "Minerva1_082",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "debeo (debēre)",
+    "dutch": "ik moet / ben verschuldigd",
+    "comment": "moeten / verschuldigd zijn"
+  },
+  {
+    "id": "Minerva1_083",
+    "method": "Minerva1",
+    "chapter": "3",
+    "language": "possum (posse)",
+    "dutch": "ik kan",
+    "comment": "kunnen"
+  },
+  {
+    "id": "Minerva1_084",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "pater, patrem",
+    "dutch": "vader",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_085",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "terra",
+    "dutch": "aarde / grond / land",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_086",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "specto (spectare)",
+    "dutch": "ik kijk naar / zie",
+    "comment": "kijken naar / zien"
+  },
+  {
+    "id": "Minerva1_087",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "pulcher, -chra, -chrum",
+    "dutch": "mooi",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_088",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "ambulo (ambulare)",
+    "dutch": "ik wandel",
+    "comment": "wandelen"
+  },
+  {
+    "id": "Minerva1_089",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "forma",
+    "dutch": "gestalte / schoonheid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_090",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "placeo (placēre) + dat.",
+    "dutch": "ik val in de smaak bij",
+    "comment": "in de smaak vallen bij"
+  },
+  {
+    "id": "Minerva1_091",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "cupidus, -a, -um + gen.",
+    "dutch": "begerig naar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_092",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "se (acc.)",
+    "dutch": "zich",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_093",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "circumdo (circumdare)",
+    "dutch": "ik omgeef",
+    "comment": "omgeven"
+  },
+  {
+    "id": "Minerva1_094",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "ira",
+    "dutch": "woede",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_095",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "metuo (metuěre)",
+    "dutch": "ik vrees / ben bang",
+    "comment": "vrezen / bang zijn"
+  },
+  {
+    "id": "Minerva1_096",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "ingenium",
+    "dutch": "karakter / talent",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_097",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "dolus",
+    "dutch": "list",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_098",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "quaero (quaerěre)",
+    "dutch": "ik zoek / vraag",
+    "comment": "zoeken / vragen"
+  },
+  {
+    "id": "Minerva1_099",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "tunc (bijw.)",
+    "dutch": "dan / toen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_100",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "suus, -a, -um",
+    "dutch": "zijn / haar (bezittelijk voornaamwoord)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_101",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "descendo (descenděre)",
+    "dutch": "ik daal af",
+    "comment": "afdalen"
+  },
+  {
+    "id": "Minerva1_102",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "respondeo (respondēre)",
+    "dutch": "ik antwoord",
+    "comment": "antwoorden"
+  },
+  {
+    "id": "Minerva1_103",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "cupio (cupěre)",
+    "dutch": "ik begeer / wil / verlang",
+    "comment": "begeren / willen / verlangen"
+  },
+  {
+    "id": "Minerva1_104",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "nuntius",
+    "dutch": "bode / bericht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_105",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "te (acc.)",
+    "dutch": "jou / je",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_106",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "interficio (interficĕre)",
+    "dutch": "ik dood",
+    "comment": "doden"
+  },
+  {
+    "id": "Minerva1_107",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "iubeo (iubēre)",
+    "dutch": "ik beveel",
+    "comment": "bevelen"
+  },
+  {
+    "id": "Minerva1_108",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "nam",
+    "dutch": "want / namelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_109",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "numquam",
+    "dutch": "nooit",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_110",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "semper",
+    "dutch": "altijd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_111",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "custodio (custodire)",
+    "dutch": "ik bewaak / pas op",
+    "comment": "bewaken / passen op"
+  },
+  {
+    "id": "Minerva1_112",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "paro (parare)",
+    "dutch": "ik maak gereed / bereid voor",
+    "comment": "ik maak gereed / bereid voor"
+  },
+  {
+    "id": "Minerva1_113",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "gladius",
+    "dutch": "zwaard",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_114",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "que",
+    "dutch": "en (staat altijd achter het woord)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_115",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "deinde (bijw.)",
+    "dutch": "vervolgens",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_116",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "capio (capĕre)",
+    "dutch": "ik pak / neem",
+    "comment": "pakken / nemen"
+  },
+  {
+    "id": "Minerva1_117",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "primum",
+    "dutch": "eerst",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_118",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "ago (agĕre)",
+    "dutch": "ik drijf / voer / doe / verricht",
+    "comment": "drijven / voeren / doen / verrichten"
+  },
+  {
+    "id": "Minerva1_119",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "appropinquo (appropinquare) + dat.",
+    "dutch": "ik nader",
+    "comment": "naderen"
+  },
+  {
+    "id": "Minerva1_120",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "saluto (salutare)",
+    "dutch": "ik begroet",
+    "comment": "begroeten"
+  },
+  {
+    "id": "Minerva1_121",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "plenus, -a, -um + gen.",
+    "dutch": "vol van / met",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_122",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "mihi (dat.)",
+    "dutch": "(aan / voor) mij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_123",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "longus, -a, -um",
+    "dutch": "lang",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_124",
+    "method": "Minerva1",
+    "chapter": "4",
+    "language": "narro (narrare)",
+    "dutch": "ik vertel",
+    "comment": "vertellen"
+  },
+  {
+    "id": "Minerva1_125",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "sol, solis",
+    "dutch": "zon",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_126",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "aureus, -a, -um",
+    "dutch": "gouden / van goud",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_127",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "argentum",
+    "dutch": "zilver",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_128",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "tum (bijw.)",
+    "dutch": "dan / toen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_129",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "intro (intrare)",
+    "dutch": "ik kom binnen / ga naar binnen",
+    "comment": "binnenkomen / binnengaan"
+  },
+  {
+    "id": "Minerva1_130",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "altus, -a, -um",
+    "dutch": "1. hoog / 2. diep",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_131",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "puer / pueri",
+    "dutch": "jongen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_132",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "cognovi",
+    "dutch": "ik heb leren kennen / vernomen",
+    "comment": "perf. van cognosco (cognoscĕre)"
+  },
+  {
+    "id": "Minerva1_133",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "cognosco (cognoscĕre)",
+    "dutch": "ik leer kennen / verneem",
+    "comment": "leren kennen / vernemen"
+  },
+  {
+    "id": "Minerva1_134",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "dixi",
+    "dutch": "ik heb gezegd / gesproken / genoemd",
+    "comment": "perf. van dico (dicĕre)"
+  },
+  {
+    "id": "Minerva1_135",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "veni",
+    "dutch": "ik ben gekomen",
+    "comment": "perf. van venio (venire)"
+  },
+  {
+    "id": "Minerva1_136",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "gaudeo",
+    "dutch": "ik ben blij / verheug me",
+    "comment": "(gaudēre) blij zijn / zich verheugen (over)"
+  },
+  {
+    "id": "Minerva1_137",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "respondi",
+    "dutch": "ik heb geantwoord",
+    "comment": "perf. van respondeo (respondēre)"
+  },
+  {
+    "id": "Minerva1_138",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "quod",
+    "dutch": "omdat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_139",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "certus, -a, -um",
+    "dutch": "zeker",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_140",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "cingo (cingĕre)",
+    "dutch": "ik omring",
+    "comment": "omringen"
+  },
+  {
+    "id": "Minerva1_141",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "deposui",
+    "dutch": "ik heb neergelegd / afgelegd",
+    "comment": "perf. van depono (deponĕre)"
+  },
+  {
+    "id": "Minerva1_142",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "depono (deponĕre)",
+    "dutch": "ik leg neer / leg af",
+    "comment": "neerleggen / afleggen"
+  },
+  {
+    "id": "Minerva1_143",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "accedo (accedĕre)",
+    "dutch": "ik nader / kom erbij / ga ernaar toe",
+    "comment": "naderen, (erbij) komen, ernaar toe gaan"
+  },
+  {
+    "id": "Minerva1_144",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "iussi",
+    "dutch": "ik heb bevolen",
+    "comment": "perf. van iubeo (iubēre)"
+  },
+  {
+    "id": "Minerva1_145",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "ait",
+    "dutch": "(hij / zij) zegt / beweert / (hij / zij) zei / beweerde",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_146",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "dubito (dubitare)",
+    "dutch": "ik twijfel / aarzel",
+    "comment": "twijfelen / aarzelen"
+  },
+  {
+    "id": "Minerva1_147",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "tibi (dat.)",
+    "dutch": "(aan / voor) jou",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_148",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "sic",
+    "dutch": "zo",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_149",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "iam",
+    "dutch": "al / reeds",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_150",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "ad + acc.",
+    "dutch": "naar / bij / tot",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_151",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "duxi",
+    "dutch": "ik heb geleid / gebracht",
+    "comment": "perf. van duco (ducĕre)"
+  },
+  {
+    "id": "Minerva1_152",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "duco (ducĕre)",
+    "dutch": "ik leid / breng",
+    "comment": "leiden / brengen"
+  },
+  {
+    "id": "Minerva1_153",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "quattuor",
+    "dutch": "vier",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_154",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "equus",
+    "dutch": "paard",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_155",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "cito (bijw.)",
+    "dutch": "snel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_156",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "iunxi",
+    "dutch": "ik heb verbonden",
+    "comment": "perf. van iungo (iungĕre)"
+  },
+  {
+    "id": "Minerva1_157",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "iungo (iungĕre)",
+    "dutch": "ik verbind",
+    "comment": "verbinden"
+  },
+  {
+    "id": "Minerva1_158",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "imposui",
+    "dutch": "ik heb opgelegd / geplaatst op",
+    "comment": "perf. van impono (imponĕre) + dat."
+  },
+  {
+    "id": "Minerva1_159",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "impono (imponĕre) + dat.",
+    "dutch": "ik leg op / plaats op",
+    "comment": "leggen op / plaatsen op"
+  },
+  {
+    "id": "Minerva1_160",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "cepi",
+    "dutch": "ik heb gepakt / ingenomen",
+    "comment": "perf. van capio (capĕre)"
+  },
+  {
+    "id": "Minerva1_161",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "ideo",
+    "dutch": "daarom",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_162",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "flecto (flectĕre)",
+    "dutch": "ik buig / verander",
+    "comment": "buigen / veranderen"
+  },
+  {
+    "id": "Minerva1_163",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "ut",
+    "dutch": "1. zoals / 2. zodra",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_164",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "sufficio (sufficĕre)",
+    "dutch": "ik ben voldoende",
+    "comment": "voldoende zijn"
+  },
+  {
+    "id": "Minerva1_165",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "denique",
+    "dutch": "tenslotte",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_166",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "invitus, -a, -um",
+    "dutch": "niet willend / onvrijwillig / tegen de wil van",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_167",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "aperui",
+    "dutch": "ik heb geopend",
+    "comment": "perf. van aperio (aperire)"
+  },
+  {
+    "id": "Minerva1_168",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "aperio (aperire)",
+    "dutch": "ik open",
+    "comment": "openen"
+  },
+  {
+    "id": "Minerva1_169",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "fui",
+    "dutch": "ik ben geweest",
+    "comment": "perf. van sum (esse)"
+  },
+  {
+    "id": "Minerva1_170",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "potui",
+    "dutch": "ik heb gekund",
+    "comment": "perf. van possum (posse)"
+  },
+  {
+    "id": "Minerva1_171",
+    "method": "Minerva1",
+    "chapter": "5",
+    "language": "missi",
+    "dutch": "ik heb gestuurd",
+    "comment": "perf. van mitto (mittĕre)"
+  },
+  {
+    "id": "Minerva1_172",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "Romanus",
+    "dutch": "Romein / Romeins",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_173",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "cum + abl.",
+    "dutch": "met",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_174",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "subito (bijw.)",
+    "dutch": "plotseling",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_175",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "cum (voegwoord)",
+    "dutch": "1. toen / 2. wanneer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_176",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "ubi?",
+    "dutch": "waar?",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_177",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "pugno (pugnare)",
+    "dutch": "ik vecht",
+    "comment": "vechten"
+  },
+  {
+    "id": "Minerva1_178",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "petivi",
+    "dutch": "ik heb gestreefd naar / gevraagd / ben gegaan naar",
+    "comment": "perf. van peto (petĕre)"
+  },
+  {
+    "id": "Minerva1_179",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "peto (petĕre)",
+    "dutch": "ik streef naar / probeer te bereiken / vraag / ga naar / ga af op",
+    "comment": "1. streven naar, proberen te bereiken / 2. vragen / 3. gaan naar, afgaan op"
+  },
+  {
+    "id": "Minerva1_180",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "pugna",
+    "dutch": "gevecht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_181",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "cecidi",
+    "dutch": "ik ben gevallen / gesneuveld",
+    "comment": "perf. van cado (cadĕre)"
+  },
+  {
+    "id": "Minerva1_182",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "cado (cadĕre)",
+    "dutch": "ik val / sneuvel",
+    "comment": "vallen / sneuvelen"
+  },
+  {
+    "id": "Minerva1_183",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "interfeci",
+    "dutch": "ik heb gedood",
+    "comment": "perf. van interficio (interficĕre)"
+  },
+  {
+    "id": "Minerva1_184",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "superbus, -a, -um",
+    "dutch": "trots / hoogmoedig",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_185",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "castra (o. mv.)",
+    "dutch": "legerkamp",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_186",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "arma (o. mv.)",
+    "dutch": "wapens",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_187",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "dignus, -a, -um + abl.",
+    "dutch": "waard / waardig",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_188",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "sine + abl.",
+    "dutch": "zonder",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_189",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "dubium",
+    "dutch": "twijfel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_190",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "pro + abl.",
+    "dutch": "voor / ten behoeve van / in plaats van",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_191",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "patria",
+    "dutch": "vaderland",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_192",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "tamen",
+    "dutch": "toch",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_193",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "quia",
+    "dutch": "omdat / aangezien",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_194",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "pareo (parēre) + dat.",
+    "dutch": "ik gehoorzaam",
+    "comment": "gehoorzamen"
+  },
+  {
+    "id": "Minerva1_195",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "poena",
+    "dutch": "straf / boete",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_196",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "notus, -a, -um",
+    "dutch": "bekend",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_197",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "Roma",
+    "dutch": "Rome",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_198",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "totus, -a, -um",
+    "dutch": "(ge)heel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_199",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "femina",
+    "dutch": "vrouw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_200",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "timeo (timēre)",
+    "dutch": "ik vrees / ben bang voor",
+    "comment": "vrezen / bang zijn (voor)"
+  },
+  {
+    "id": "Minerva1_201",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "statui",
+    "dutch": "ik heb besloten / geplaatst",
+    "comment": "perf. van statuo (statuĕre)"
+  },
+  {
+    "id": "Minerva1_202",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "statuo (statuĕre) + inf.",
+    "dutch": "ik besluit",
+    "comment": "besluiten"
+  },
+  {
+    "id": "Minerva1_203",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "amicus",
+    "dutch": "vriend",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_204",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "ei (dat.)",
+    "dutch": "aan hem / haar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_205",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "tuus, -a, -um",
+    "dutch": "jouw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_206",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "de + abl.",
+    "dutch": "van (boven) af / over / aangaande",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_207",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "aut",
+    "dutch": "of",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_208",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "in + abl.",
+    "dutch": "in / op / bij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_209",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "captivus",
+    "dutch": "krijgsgevangene",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_210",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "genui",
+    "dutch": "ik heb voortgebracht / gebaard",
+    "comment": "perf. van gigno (gignĕre)"
+  },
+  {
+    "id": "Minerva1_211",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "gigno (gignĕre)",
+    "dutch": "ik breng voort / baar",
+    "comment": "voortbrengen / baren"
+  },
+  {
+    "id": "Minerva1_212",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "libero (liberare) + abl.",
+    "dutch": "ik bevrijd van",
+    "comment": "bevrijden van"
+  },
+  {
+    "id": "Minerva1_213",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "alius, -a, -ud",
+    "dutch": "(een) ander",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_214",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "a, ab + abl.",
+    "dutch": "van(af) / weg van",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_215",
+    "method": "Minerva1",
+    "chapter": "6",
+    "language": "movi",
+    "dutch": "ik heb bewogen",
+    "comment": "perf. van moveo (movēre)"
+  },
+  {
+    "id": "Minerva1_216",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "dives, -es, -es (divitis)",
+    "dutch": "rijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_217",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "villa",
+    "dutch": "landhuis",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_218",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "habui",
+    "dutch": "ik heb gehad",
+    "comment": "perf. van habeo (habēre)"
+  },
+  {
+    "id": "Minerva1_219",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "crudelis, -is, -e (crudelis)",
+    "dutch": "wreed",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_220",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "soleo (solēre)",
+    "dutch": "ik ben gewoon / pleeg te doen",
+    "comment": "de gewoonte hebben, gewoonlijk doen"
+  },
+  {
+    "id": "Minerva1_221",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "sanguis, sanguinis (m)",
+    "dutch": "bloed",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_222",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "imperator, imperatoris (m)",
+    "dutch": "opperbevelhebber / keizer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_223",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "invito (invitare)",
+    "dutch": "ik nodig uit",
+    "comment": "uitnodigen"
+  },
+  {
+    "id": "Minerva1_224",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "dum",
+    "dutch": "terwijl / zolang als",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_225",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "unus, -a, -um",
+    "dutch": "één / (als) enige / alleen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_226",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "e(x) + abl.",
+    "dutch": "uit / weg van / van",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_227",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "fregi",
+    "dutch": "ik heb gebroken",
+    "comment": "perf. van frango (frangĕre)"
+  },
+  {
+    "id": "Minerva1_228",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "frango (frangĕre)",
+    "dutch": "ik breek",
+    "comment": "breken"
+  },
+  {
+    "id": "Minerva1_229",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "pes, pedis (m)",
+    "dutch": "voet",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_230",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "crudelitas, crudelitatis (v)",
+    "dutch": "wreedheid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_231",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "dominus",
+    "dutch": "heer / heerser",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_232",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "parco (parcĕre) + dat.",
+    "dutch": "ik spaar",
+    "comment": "sparen"
+  },
+  {
+    "id": "Minerva1_233",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "omnis, -is, -e (omnis)",
+    "dutch": "ieder / elk / geheel / (mv.) alle(n)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_234",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "compleo (complēre)",
+    "dutch": "ik vul",
+    "comment": "vullen"
+  },
+  {
+    "id": "Minerva1_235",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "praeterea",
+    "dutch": "bovendien",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_236",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "gravis, -is, -e (gravis)",
+    "dutch": "zwaar / gewichtig / ernstig",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_237",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "si",
+    "dutch": "als",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_238",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "necesse",
+    "dutch": "noodzakelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_239",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "neco (necare)",
+    "dutch": "ik dood",
+    "comment": "doden"
+  },
+  {
+    "id": "Minerva1_240",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "mors, mortis (v)",
+    "dutch": "dood",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_241",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "servo (servare)",
+    "dutch": "ik red / bescherm",
+    "comment": "redden / beschermen"
+  },
+  {
+    "id": "Minerva1_242",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "nomen, nominis (o)",
+    "dutch": "naam",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_243",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "vivo (vivĕre)",
+    "dutch": "ik leef",
+    "comment": "leven"
+  },
+  {
+    "id": "Minerva1_244",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "alii ... Alii",
+    "dutch": "sommige(n) ... andere(n)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_245",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "puto (putare)",
+    "dutch": "ik meen / beschouw als",
+    "comment": "1. menen / 2. (+2 acc.) beschouwen als"
+  },
+  {
+    "id": "Minerva1_246",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "exemplum",
+    "dutch": "voorbeeld",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_247",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "licet + dat.",
+    "dutch": "het is toegestaan / het is mogelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_248",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "silentium",
+    "dutch": "stilte",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_249",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "alius ... Alius",
+    "dutch": "de een ... de ander",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_250",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "vestis, vestis (v)",
+    "dutch": "kleding(stuk)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_251",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "aeque (bijw.)",
+    "dutch": "net zo / even(zeer)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_252",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "aestimo (aestimare)",
+    "dutch": "ik schat / acht waard / beoordeel",
+    "comment": "1. schatten, waard achten / 2. beoordelen"
+  },
+  {
+    "id": "Minerva1_253",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "opinio, opinionis (v)",
+    "dutch": "mening / opvatting",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_254",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "inferior, -or, -us (inferioris)",
+    "dutch": "1. lager / 2. minder, zwakker",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_255",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "quemadmodum",
+    "dutch": "1. hoe? / 2. (zo)als",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_256",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "ingens, -ns, -ns (ingentis)",
+    "dutch": "geweldig / enorm",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_257",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "bonus, -a, -um",
+    "dutch": "goed",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_258",
+    "method": "Minerva1",
+    "chapter": "7",
+    "language": "fortis, -is, -e (fortis)",
+    "dutch": "dapper / sterk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_259",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "cura",
+    "dutch": "zorg",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_260",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "qui",
+    "dutch": "die (betrekkelijk voornaamwoord)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_261",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "princeps, principis (m)",
+    "dutch": "de eerste / leider / keizer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_262",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "mos, moris (m)",
+    "dutch": "gewoonte / gebruik",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_263",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "pax, pacis (v)",
+    "dutch": "vrede",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_264",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "bellum",
+    "dutch": "oorlog",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_265",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "urbs, urbis (v)",
+    "dutch": "stad / dé stad / Rome",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_266",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "ante + acc.",
+    "dutch": "voor",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_267",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "exerceo (exercēre)",
+    "dutch": "ik oefen",
+    "comment": "oefenen"
+  },
+  {
+    "id": "Minerva1_268",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "inter + acc.",
+    "dutch": "tussen / te midden van",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_269",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "hostis, hostis (m)",
+    "dutch": "vijand",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_270",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "dux, ducis (m)",
+    "dutch": "leider",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_271",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "trado (tradĕre)",
+    "dutch": "ik overhandig / lever uit / lever over",
+    "comment": "overhandigen / uitleveren / overleveren"
+  },
+  {
+    "id": "Minerva1_272",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "tradidi",
+    "dutch": "ik heb overhandigd / uitgeleverd / overgeleverd",
+    "comment": "perf. van trado (tradĕre)"
+  },
+  {
+    "id": "Minerva1_273",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "vobis (dat.)",
+    "dutch": "(aan / voor) jullie",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_274",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "populus",
+    "dutch": "volk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_275",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "hic, haec, hoc (huius)",
+    "dutch": "deze / dit",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_276",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "is, ea, id (eius)",
+    "dutch": "1. hij / zij / het / 2. deze / dit; die / dat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_277",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "munus, muneris (o)",
+    "dutch": "geschenk / taak",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_278",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "ius, iuris (o)",
+    "dutch": "recht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_279",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "sicut",
+    "dutch": "zoals",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_280",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "novus, -a, -um",
+    "dutch": "nieuw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_281",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "scelus, sceleris (o)",
+    "dutch": "misdaad",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_282",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "vici",
+    "dutch": "ik heb overwonnen / overtroffen",
+    "comment": "perf. van vinco (vincĕre)"
+  },
+  {
+    "id": "Minerva1_283",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "vinco (vincĕre)",
+    "dutch": "ik overwin / overtref",
+    "comment": "overwinnen / overtreffen"
+  },
+  {
+    "id": "Minerva1_284",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "virtus, virtutis (v)",
+    "dutch": "deugd / goede eigenschap / moed / dapperheid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_285",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "deinde",
+    "dutch": "daarna / vervolgens",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_286",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "post + acc.",
+    "dutch": "na / achter",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_287",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "dedi",
+    "dutch": "ik heb gegeven",
+    "comment": "perf. van do (dare)"
+  },
+  {
+    "id": "Minerva1_288",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "egi",
+    "dutch": "ik heb gedaan / verricht / gevoerd",
+    "comment": "perf. van ago (agĕre)"
+  },
+  {
+    "id": "Minerva1_289",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "quid?",
+    "dutch": "wat? / waarom?",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_290",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "nobiscum",
+    "dutch": "met ons (=cum nobis)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_291",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "invisus, -a, -um (+ dat.)",
+    "dutch": "gehaat (aan / bij)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_292",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "virgo, virginis (v)",
+    "dutch": "meisje / maagd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_293",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "ludus",
+    "dutch": "1. spel / 2. school",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_294",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "adhuc",
+    "dutch": "tot nu toe / nog",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_295",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "nox, noctis (v)",
+    "dutch": "nacht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_296",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "nondum",
+    "dutch": "nog niet",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_297",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "rupi",
+    "dutch": "ik heb gebroken / doorbroken",
+    "comment": "perf. van rumpo (rumpĕre)"
+  },
+  {
+    "id": "Minerva1_298",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "rumpo",
+    "dutch": "ik breek / doorbreek",
+    "comment": "(rumpĕre) breken / doorbreken"
+  },
+  {
+    "id": "Minerva1_299",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "vox, vocis (v)",
+    "dutch": "stem / woord",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_300",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "saevus, -a, -um",
+    "dutch": "woest / wreed",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_301",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "etiam",
+    "dutch": "ook / zelfs",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_302",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "clamor, clamoris (m)",
+    "dutch": "geschreeuw / lawaai",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_303",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "tam",
+    "dutch": "zo (zeer)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_304",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "somnus",
+    "dutch": "slaap",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_305",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "levis, -is, -e (levis)",
+    "dutch": "licht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_306",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "dimitto (dimittĕre)",
+    "dutch": "ik stuur weg / laat gaan",
+    "comment": "weg sturen / laten gaan"
+  },
+  {
+    "id": "Minerva1_307",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "pecunia",
+    "dutch": "geld",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_308",
+    "method": "Minerva1",
+    "chapter": "8",
+    "language": "taceo (tacēre)",
+    "dutch": "ik zwijg",
+    "comment": "zwijgen"
+  },
+  {
+    "id": "Minerva1_309",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "fluvius",
+    "dutch": "rivier",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_310",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "transeo (transire)",
+    "dutch": "ik ga over / steek over / ga voorbij",
+    "comment": "1. overgaan, oversteken / 2. voorbijgaan (van tijd)"
+  },
+  {
+    "id": "Minerva1_311",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "sustuli",
+    "dutch": "ik heb opgetild / opgepakt / weggenomen",
+    "comment": "perf. van tollo (tollĕre)"
+  },
+  {
+    "id": "Minerva1_312",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "tollo (tollĕre)",
+    "dutch": "ik til op / pak op / neem weg",
+    "comment": "1. optillen, oppakken / 2. wegnemen"
+  },
+  {
+    "id": "Minerva1_313",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "coepi",
+    "dutch": "ik ben begonnen / ik begon",
+    "comment": "(perf.) van coepi"
+  },
+  {
+    "id": "Minerva1_314",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "finxi",
+    "dutch": "ik heb gevormd / verzonnen",
+    "comment": "perf. van fingo (fingĕre)"
+  },
+  {
+    "id": "Minerva1_315",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "fingo (fingĕre)",
+    "dutch": "ik vorm / verzin",
+    "comment": "1. vormen / 2. verzinnen"
+  },
+  {
+    "id": "Minerva1_316",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "secum",
+    "dutch": "met / bij zichzelf (= cum se)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_317",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "feci",
+    "dutch": "ik heb gemaakt / gedaan",
+    "comment": "perf. van facio (facĕre)"
+  },
+  {
+    "id": "Minerva1_318",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "facio (facĕre)",
+    "dutch": "ik maak / doe",
+    "comment": "1. maken / 2. doen"
+  },
+  {
+    "id": "Minerva1_319",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "spiritus",
+    "dutch": "adem / geest",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_320",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "facilis, -is, -e (facilis)",
+    "dutch": "gemakkelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_321",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "prohibeo (prohibēre)",
+    "dutch": "ik verhinder",
+    "comment": "verhinderen"
+  },
+  {
+    "id": "Minerva1_322",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "surrexi",
+    "dutch": "ik ben opgestaan / overeind gekomen",
+    "comment": "perf. van surgo (surgĕre)"
+  },
+  {
+    "id": "Minerva1_323",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "surgo (surgĕre)",
+    "dutch": "ik richt me op / sta op",
+    "comment": "zich oprichten/ opstaan"
+  },
+  {
+    "id": "Minerva1_324",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "tellus, telluris (v)",
+    "dutch": "aarde",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_325",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "corpus, corporis (o)",
+    "dutch": "lichaam",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_326",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "praebeo (praebēre)",
+    "dutch": "ik verschaf / bied aan",
+    "comment": "verschaffen, aanbieden"
+  },
+  {
+    "id": "Minerva1_327",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "iudex, iudicis (m)",
+    "dutch": "rechter",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_328",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "videtur",
+    "dutch": "(hij / zij / het) schijnt",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_329",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "iudico (iudicare)",
+    "dutch": "ik oordeel",
+    "comment": "oordelen"
+  },
+  {
+    "id": "Minerva1_330",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "quoniam",
+    "dutch": "aangezien / omdat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_331",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "primus, -a, -um",
+    "dutch": "eerste",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_332",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "possideo (possidēre)",
+    "dutch": "ik bezit",
+    "comment": "bezitten"
+  },
+  {
+    "id": "Minerva1_333",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "voco (vocare)",
+    "dutch": "ik roep / noem",
+    "comment": "1. roepen / 2. noemen"
+  },
+  {
+    "id": "Minerva1_334",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "humus (v)",
+    "dutch": "grond",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_335",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "fugi",
+    "dutch": "ik ben gevlucht",
+    "comment": "perf. van fugio (fugĕre)"
+  },
+  {
+    "id": "Minerva1_336",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "lapis, lapidis (m)",
+    "dutch": "steen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_337",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "ob + acc.",
+    "dutch": "wegens",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_338",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "ut + ind.",
+    "dutch": "1. zoals / 2. zodra",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_339",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "intereo (interire)",
+    "dutch": "ik sterf",
+    "comment": "sterven"
+  },
+  {
+    "id": "Minerva1_340",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "preater + acc.",
+    "dutch": "1. behalve / 2. voorbij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_341",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "genus, generis (o)",
+    "dutch": "1. afkomst, geslacht / 2. soort",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_342",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "vel",
+    "dutch": "of",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_343",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "cum + ind",
+    "dutch": "1. toen / 2. wanneer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_344",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "humanus, -a, -um",
+    "dutch": "menselijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_345",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "mulier, mulieris (v)",
+    "dutch": "1. vrouw / 2. echtgenote, getrouwde vrouw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_346",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "ut + conj.",
+    "dutch": "1 (op)dat, om te / 2. zodat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_347",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "vir, viri",
+    "dutch": "man",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_348",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "iacto (iactare)",
+    "dutch": "ik werp / slinger / ik schep op, poch",
+    "comment": "1. werpen, slingeren / 2. opscheppen / pochen"
+  },
+  {
+    "id": "Minerva1_349",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "propter + acc.",
+    "dutch": "vanwege, door",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_350",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "interii",
+    "dutch": "ik ben gestorven",
+    "comment": "perf. van intereo (interire)"
+  },
+  {
+    "id": "Minerva1_351",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "solitudo, solitudinis (v)",
+    "dutch": "eenzaamheid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_352",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "afficio (afficĕre)",
+    "dutch": "iemand (acc.) (met) iets (abl.) aandoen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_353",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "cum + conj.",
+    "dutch": "1. toen, nadat / 2. omdat / 3. hoewel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_354",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "fugio (fugĕre)",
+    "dutch": "ik vlucht",
+    "comment": "vluchten"
+  },
+  {
+    "id": "Minerva1_355",
+    "method": "Minerva1",
+    "chapter": "9",
+    "language": "par, paris (+ dat.)",
+    "dutch": "gelijk (aan), opgewassen (tegen)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_356",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "decem",
+    "dutch": "(onverbuigbaar) tien",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_357",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "annus",
+    "dutch": "jaar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_358",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "magnitudo magnitudinis (v)",
+    "dutch": "grootte / omvang",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_359",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "scripsi",
+    "dutch": "ik heb geschreven",
+    "comment": "perf. van scribo (scribĕre)"
+  },
+  {
+    "id": "Minerva1_360",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "scribo (scribĕre)",
+    "dutch": "ik schrijf",
+    "comment": "schrijven"
+  },
+  {
+    "id": "Minerva1_361",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "transtuli",
+    "dutch": "ik heb overgebracht / overgedragen",
+    "comment": "perf. van transfero (transferre)"
+  },
+  {
+    "id": "Minerva1_362",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "transfero (transferre)",
+    "dutch": "ik breng over / draag over",
+    "comment": "overbrengen / overdragen"
+  },
+  {
+    "id": "Minerva1_363",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "abii",
+    "dutch": "ik ben weggegaan",
+    "comment": "perf. van abeo (abire)"
+  },
+  {
+    "id": "Minerva1_364",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "abeo (abire)",
+    "dutch": "ik ga weg",
+    "comment": "weg gaan"
+  },
+  {
+    "id": "Minerva1_365",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "arx, arcis (v)",
+    "dutch": "burcht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_366",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "impero (imperare)",
+    "dutch": "ik beveel (aan) / heers over",
+    "comment": "1. bevelen (aan) / 2. heersen (over)"
+  },
+  {
+    "id": "Minerva1_367",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "vates, vatis (m / v)",
+    "dutch": "waarzegger / dichter",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_368",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "statuo (statuĕre)",
+    "dutch": "ik plaats / besluit",
+    "comment": "1. plaatsen / 2. besluiten"
+  },
+  {
+    "id": "Minerva1_369",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "atque",
+    "dutch": "en",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_370",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "exii",
+    "dutch": "ik ben uitgegaan / weggegaan",
+    "comment": "perf. van exeo (exire)"
+  },
+  {
+    "id": "Minerva1_371",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "exeo (exire)",
+    "dutch": "ik ga uit / ga weg",
+    "comment": "gaan uit / weggaan"
+  },
+  {
+    "id": "Minerva1_372",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "porta",
+    "dutch": "poort",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_373",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "custos, custodis (m)",
+    "dutch": "bewaker",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_374",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "occidi",
+    "dutch": "ik heb gedood",
+    "comment": "perf. van occido (occidĕre)"
+  },
+  {
+    "id": "Minerva1_375",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "occido (occidĕre)",
+    "dutch": "ik dood",
+    "comment": "doden"
+  },
+  {
+    "id": "Minerva1_376",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "socius",
+    "dutch": "bondgenoot / makker",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_377",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "recepi",
+    "dutch": "ik heb teruggekregen / ontvangen",
+    "comment": "perf. van recipio (recipĕre)"
+  },
+  {
+    "id": "Minerva1_378",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "recipio (recipĕre)",
+    "dutch": "ik krijg terug / ontvang",
+    "comment": "1. terug krijgen / 2. ontvangen"
+  },
+  {
+    "id": "Minerva1_379",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "constat + AcI",
+    "dutch": "het staat vast dat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_380",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "fama",
+    "dutch": "gerucht / verhaal / reputatie",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_381",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "scio (scire)",
+    "dutch": "ik weet",
+    "comment": "weten"
+  },
+  {
+    "id": "Minerva1_382",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "cresco (crescĕre)",
+    "dutch": "ik groei",
+    "comment": "groeien"
+  },
+  {
+    "id": "Minerva1_383",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "parens, parentis (m / v)",
+    "dutch": "ouder (vader / moeder)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_384",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "durus, -a, -um",
+    "dutch": "hard / moeilijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_385",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "mitis, -is, -e (mitis)",
+    "dutch": "zacht / vriendelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_386",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "opto (optare)",
+    "dutch": "ik wens",
+    "comment": "wensen"
+  },
+  {
+    "id": "Minerva1_387",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "parvus, -a, -um",
+    "dutch": "klein",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_388",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "satis",
+    "dutch": "voldoende",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_389",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "regnum",
+    "dutch": "rijk / heerschappij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_390",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "coniunx, coniugis (m / v)",
+    "dutch": "1. echtgenote / vrouw / 2. echtgenoot / man",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_391",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "regius, -a, -um",
+    "dutch": "koninklijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_392",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "vultus",
+    "dutch": "gezicht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_393",
+    "method": "Minerva1",
+    "chapter": "10",
+    "language": "se (acc.)",
+    "dutch": "1. zich / 2. hij/zij (ev.), zij (mv.) (in AcI)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_394",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "nepos, nepotis (m)",
+    "dutch": "kleinzoon",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_395",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "locus",
+    "dutch": "plaats / streek (mv. loca of loci)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_396",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "oppidum",
+    "dutch": "(vesting)stad",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_397",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "dictus",
+    "dutch": "gezegd / genoemd",
+    "comment": "ppp van dico (dicĕre)"
+  },
+  {
+    "id": "Minerva1_398",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "avus",
+    "dutch": "grootvader / opa",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_399",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "a(b) + abl.",
+    "dutch": "door (bij passieve werkwoorden)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_400",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "illic (bijw.)",
+    "dutch": "daar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_401",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "moror, morari",
+    "dutch": "ik verblijf / houd me op / vertraag",
+    "comment": "verblijven / ophouden / vertragen"
+  },
+  {
+    "id": "Minerva1_402",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "bos, bovis (m / v)",
+    "dutch": "rund / koe",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_403",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "occisus",
+    "dutch": "gedood",
+    "comment": "ppp van occido (occidĕre)"
+  },
+  {
+    "id": "Minerva1_404",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "abstuli, ablatus",
+    "dutch": "weggenomen / ontnomen",
+    "comment": "perf. en ppp van aufero (auferre)"
+  },
+  {
+    "id": "Minerva1_405",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "aufero (auferre) (+ abl.)",
+    "dutch": "ik neem weg / ontneem (aan)",
+    "comment": "wegnemen, ontnemen (aan)"
+  },
+  {
+    "id": "Minerva1_406",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "traxi, tractus",
+    "dutch": "getrokken",
+    "comment": "perf. en ppp van traho (trahĕre)"
+  },
+  {
+    "id": "Minerva1_407",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "traho (trahĕre)",
+    "dutch": "ik trek",
+    "comment": "trekken"
+  },
+  {
+    "id": "Minerva1_408",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "ne + conj.",
+    "dutch": "opdat niet / om niet te",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_409",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "vestigium",
+    "dutch": "(voet)spoor",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_410",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "diu (bijw.)",
+    "dutch": "lange tijd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_411",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "quaesivi, quaesitus",
+    "dutch": "gezocht",
+    "comment": "perf. en ppp van quaero (quaerĕre)"
+  },
+  {
+    "id": "Minerva1_412",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "fero (ferre)",
+    "dutch": "ik breng / draag / verdraag",
+    "comment": "brengen / dragen / verdragen"
+  },
+  {
+    "id": "Minerva1_413",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "invenio (invenire)",
+    "dutch": "ik vind / tref aan",
+    "comment": "vinden / aantreffen"
+  },
+  {
+    "id": "Minerva1_414",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "inveni",
+    "dutch": "ik heb gevonden / aangetroffen",
+    "comment": "perf. van invenio (invenire)"
+  },
+  {
+    "id": "Minerva1_415",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "frater, fratris (m)",
+    "dutch": "broer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_416",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "imperium",
+    "dutch": "macht / gezag / heerschappij / rijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_417",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "pepuli, pulsus",
+    "dutch": "verdreven",
+    "comment": "perf. en ppp van pello (pellĕre)"
+  },
+  {
+    "id": "Minerva1_418",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "pello (pellĕre) (+ abl.)",
+    "dutch": "ik drijf (van)",
+    "comment": "(ver)drijven (van)"
+  },
+  {
+    "id": "Minerva1_419",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "vero (bijw.)",
+    "dutch": "echter / werkelijk / inderdaad",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_420",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "facio (facĕre) + 2 acc.",
+    "dutch": "ik maak tot",
+    "comment": "maken tot"
+  },
+  {
+    "id": "Minerva1_421",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "natus sum",
+    "dutch": "ik ben geboren",
+    "comment": "perf. van nascor (nasci)"
+  },
+  {
+    "id": "Minerva1_422",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "nascor (nasci)",
+    "dutch": "geboren worden",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_423",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "amnis, amnis (m)",
+    "dutch": "stroom / rivier",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_424",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "uxor, uxoris (v)",
+    "dutch": "echtgenote / vrouw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_425",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "ripa",
+    "dutch": "oever",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_426",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "reperio (reperire)",
+    "dutch": "ik vind / kom te weten",
+    "comment": "vinden, te weten komen"
+  },
+  {
+    "id": "Minerva1_427",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "nuper",
+    "dutch": "onlangs",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_428",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "alo (alĕre)",
+    "dutch": "ik voed / breng groot",
+    "comment": "(op)voeden / grootbrengen"
+  },
+  {
+    "id": "Minerva1_429",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "postea (bijw.)",
+    "dutch": "later / daarna",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_430",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "revoco (revocare)",
+    "dutch": "ik roep terug",
+    "comment": "terugroepen"
+  },
+  {
+    "id": "Minerva1_431",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "recessi",
+    "dutch": "ik ben teruggegaan / weggegaan",
+    "comment": "perf. van recedo (recedĕre)"
+  },
+  {
+    "id": "Minerva1_432",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "recedo (recedĕre)",
+    "dutch": "ik ga terug / ga weg",
+    "comment": "teruggaan / weggaan"
+  },
+  {
+    "id": "Minerva1_433",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "condidi",
+    "dutch": "ik heb gesticht / opgeborgen / verborgen",
+    "comment": "perf. van condo (condĕre)"
+  },
+  {
+    "id": "Minerva1_434",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "condo (condĕre)",
+    "dutch": "ik sticht / berg op / verberg",
+    "comment": "1. stichten / 2. opbergen, verbergen"
+  },
+  {
+    "id": "Minerva1_435",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "sex (onverbuigbaar)",
+    "dutch": "zes",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_436",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "appello (appellare)",
+    "dutch": "ik noem / spreek toe",
+    "comment": "1. noemen / 2. toespreken"
+  },
+  {
+    "id": "Minerva1_437",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "missus",
+    "dutch": "gestuurd / gezonden",
+    "comment": "ppp van mitto (mittĕre)"
+  },
+  {
+    "id": "Minerva1_438",
+    "method": "Minerva1",
+    "chapter": "11",
+    "language": "captus",
+    "dutch": "gevangen / ingenomen",
+    "comment": "ppp van capio (capĕre)"
+  },
+  {
+    "id": "Minerva1_439",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "civis, civis (m / v)",
+    "dutch": "burger",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_440",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "volui",
+    "dutch": "ik heb gewild",
+    "comment": "perf. van volo (velle)"
+  },
+  {
+    "id": "Minerva1_441",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "volo (velle)",
+    "dutch": "ik wil",
+    "comment": "willen"
+  },
+  {
+    "id": "Minerva1_442",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "deprehendi",
+    "dutch": "ik heb gegrepen / betrapt",
+    "comment": "perf. van deprehendo (deprehendĕre)"
+  },
+  {
+    "id": "Minerva1_443",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "deprehendo (deprehendĕre)",
+    "dutch": "ik grijp / betrap",
+    "comment": "grijpen / betrappen"
+  },
+  {
+    "id": "Minerva1_444",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "armatus, -a, -um",
+    "dutch": "gewapend",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_445",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "perduxi",
+    "dutch": "ik heb gebracht / geleid (tot)",
+    "comment": "perf. van perduco (perducĕre)"
+  },
+  {
+    "id": "Minerva1_446",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "perduco (perducĕre)",
+    "dutch": "ik breng / leid (tot)",
+    "comment": "brengen / leiden (tot)"
+  },
+  {
+    "id": "Minerva1_447",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "soror, sororis (v)",
+    "dutch": "zus",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_448",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "tertius, -a, -um",
+    "dutch": "derde",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_449",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "nisi",
+    "dutch": "als niet / tenzij / behalve",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_450",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "qui, quae, quod (cuius)",
+    "dutch": "die / dat (betr. vnw.)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_451",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "revertor (reverti)",
+    "dutch": "ik keer terug",
+    "comment": "terugkeren"
+  },
+  {
+    "id": "Minerva1_452",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "repente (bijw.)",
+    "dutch": "plotseling",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_453",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "tempestas, tempestatis (v)",
+    "dutch": "tijd / weer / storm",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_454",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "ortus sum",
+    "dutch": "ik ben ontstaan / begonnen / opgekomen",
+    "comment": "perf. van orior (oriri)"
+  },
+  {
+    "id": "Minerva1_455",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "orior (oriri)",
+    "dutch": "1. onstaan / beginnen / 2. opkomen (van de zon)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_456",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "flumen, fluminis (o)",
+    "dutch": "rivier",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_457",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "ita",
+    "dutch": "zo",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_458",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "nec",
+    "dutch": "en niet / ook niet / noch",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_459",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "nec ... nec",
+    "dutch": "noch ... noch / en niet ... en ook niet",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_460",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "consedi",
+    "dutch": "ik ben gaan zitten / heb plaatsgenomen",
+    "comment": "perf. van consido (considĕre)"
+  },
+  {
+    "id": "Minerva1_461",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "consido (considĕre)",
+    "dutch": "ik ga zitten",
+    "comment": "gaan zitten"
+  },
+  {
+    "id": "Minerva1_462",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "fleo (flēre)",
+    "dutch": "ik huil (om) / ween (om)",
+    "comment": "huilen (om) / (be)wenen"
+  },
+  {
+    "id": "Minerva1_463",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "pereo (perire)",
+    "dutch": "ik kom om / ga te gronde",
+    "comment": "omkomen, te gronde gaan"
+  },
+  {
+    "id": "Minerva1_464",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "hora",
+    "dutch": "uur",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_465",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "vix",
+    "dutch": "met moeite / nauwelijks",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_466",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "tandem (bijw.)",
+    "dutch": "tenslotte / eindelijk",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_467",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "consequor (consequi)",
+    "dutch": "volgen / bereiken",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_468",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "exclamo (exclamare)",
+    "dutch": "ik schreeuw uit / roep uit",
+    "comment": "uitschreeuwen / uitroepen"
+  },
+  {
+    "id": "Minerva1_469",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "longe (bijw.)",
+    "dutch": "ver / lang",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_470",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "adsum (adesse) (+ dat.)",
+    "dutch": "aanwezig zijn (bij) / helpen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_471",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "factum",
+    "dutch": "feit / daad",
+    "comment": "ppp van facio (facĕre)"
+  },
+  {
+    "id": "Minerva1_472",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "nuntio (nuntiare)",
+    "dutch": "ik bericht",
+    "comment": "berichten"
+  },
+  {
+    "id": "Minerva1_473",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "amicitia",
+    "dutch": "vriendschap",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_474",
+    "method": "Minerva1",
+    "chapter": "12",
+    "language": "vita",
+    "dutch": "leven",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_475",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "duo, duorum",
+    "dutch": "twee",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_476",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "alter, alterius",
+    "dutch": "(een) ander",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_477",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "iter, itineris (o)",
+    "dutch": "weg / reis / mars",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_478",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "simul (bijw.)",
+    "dutch": "tegelijk(ertijd)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_479",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "provincia",
+    "dutch": "(ambt)gebied / provincie",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_480",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "multitudo, multitudinis (v)",
+    "dutch": "menigte",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_481",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "videor (videri)",
+    "dutch": "ik schijn / wek de indruk",
+    "comment": "schijnen / de indruk wekken"
+  },
+  {
+    "id": "Minerva1_482",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "sibi",
+    "dutch": "dat. van se",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_483",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "similis + gen. / dat.",
+    "dutch": "gelijk aan / gelijkend op",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_484",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "ordo, ordinis (m)",
+    "dutch": "rij / gelid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_485",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "aliquando (bijw.)",
+    "dutch": "eens / ooit / soms",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_486",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "adduco (adducĕre)",
+    "dutch": "ik breng (naar / tot)",
+    "comment": "brengen (naar / tot)"
+  },
+  {
+    "id": "Minerva1_487",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "medius, -a, -um",
+    "dutch": "in het midden / middelste",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_488",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "quis?",
+    "dutch": "wie",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_489",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "iterum (bijw.)",
+    "dutch": "weer / opnieuw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_490",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "sto (stare)",
+    "dutch": "ik sta",
+    "comment": "staan"
+  },
+  {
+    "id": "Minerva1_491",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "comes, comitis (m / v)",
+    "dutch": "metgezel / vriend",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_492",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "laudo (laudare)",
+    "dutch": "ik prijs",
+    "comment": "prijzen"
+  },
+  {
+    "id": "Minerva1_493",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "ille",
+    "dutch": "die (aanwijzend vnw.)",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_494",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "fallo (fallĕre)",
+    "dutch": "ik bedrieg / ontga",
+    "comment": "1. bedriegen / 2. ontgaan"
+  },
+  {
+    "id": "Minerva1_495",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "apud + acc.",
+    "dutch": "bij",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_496",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "cogito (cogitare)",
+    "dutch": "ik denk (aan) / overweeg",
+    "comment": "denken (aan), overwegen"
+  },
+  {
+    "id": "Minerva1_497",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "magis (bijw.)",
+    "dutch": "meer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_498",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "dic",
+    "dutch": "sprak",
+    "comment": "imperativus. ev. van dico (dicĕre)"
+  },
+  {
+    "id": "Minerva1_499",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "at",
+    "dutch": "maar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_500",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "veritas, veritatis (v)",
+    "dutch": "waarheid",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_501",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "loquor (loqui)",
+    "dutch": "ik spreek",
+    "comment": "spreken"
+  },
+  {
+    "id": "Minerva1_502",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "verus / -a / -um / vere (bijw.)",
+    "dutch": "echt / waar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_503",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "dens, dentis (m)",
+    "dutch": "tand",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_504",
+    "method": "Minerva1",
+    "chapter": "13",
+    "language": "malus, -a, -um",
+    "dutch": "slecht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_505",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "sum",
+    "dutch": "zijn",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_506",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "esse",
+    "dutch": "zijn",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_507",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "amo",
+    "dutch": "beminnen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_508",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "video",
+    "dutch": "zien",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_509",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "do",
+    "dutch": "geven",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_510",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "dico",
+    "dutch": "zeggen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_511",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "venio",
+    "dutch": "komen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_512",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "porto",
+    "dutch": "dragen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_513",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "mitto",
+    "dutch": "sturen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_514",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "sto",
+    "dutch": "staan",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_515",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "habeo",
+    "dutch": "hebben",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_516",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "teneo",
+    "dutch": "vasthouden",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_517",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "lego",
+    "dutch": "lezen / verzamelen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_518",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "audio",
+    "dutch": "horen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_519",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ago",
+    "dutch": "doen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_520",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "fero",
+    "dutch": "dragen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_521",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "duco",
+    "dutch": "leiden",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_522",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "pono",
+    "dutch": "plaatsen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_523",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ignis",
+    "dutch": "vuur",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_524",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ventus",
+    "dutch": "wind",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_525",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "sol",
+    "dutch": "zon",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_526",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "luna",
+    "dutch": "maan",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_527",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "stella",
+    "dutch": "ster",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_528",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "mare",
+    "dutch": "zee",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_529",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "mons",
+    "dutch": "berg",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_530",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "urbs",
+    "dutch": "stad",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_531",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "domus",
+    "dutch": "huis",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_532",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "via",
+    "dutch": "weg",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_533",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "templum",
+    "dutch": "tempel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_534",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ager",
+    "dutch": "akker",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_535",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "navis",
+    "dutch": "schip",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_536",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "miles",
+    "dutch": "soldaat",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_537",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "dux",
+    "dutch": "leider",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_538",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "rex",
+    "dutch": "koning",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_539",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "regina",
+    "dutch": "koningin",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_540",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "puer",
+    "dutch": "jongen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_541",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "puella",
+    "dutch": "meisje",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_542",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "vir",
+    "dutch": "man",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_543",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "inimicus",
+    "dutch": "vijand",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_544",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "corpus",
+    "dutch": "lichaam",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_545",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "caput",
+    "dutch": "hoofd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_546",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "manus",
+    "dutch": "hand",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_547",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "oculus",
+    "dutch": "oog",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_548",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "vox",
+    "dutch": "stem",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_549",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "res",
+    "dutch": "zaak",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_550",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "tempus",
+    "dutch": "tijd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_551",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "dies",
+    "dutch": "dag",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_552",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "nox",
+    "dutch": "nacht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_553",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "magnus",
+    "dutch": "groot",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_554",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "parvus",
+    "dutch": "klein",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_555",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "bonus",
+    "dutch": "goed",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_556",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "malus",
+    "dutch": "slecht",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_557",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "longus",
+    "dutch": "lang",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_558",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "brevis",
+    "dutch": "kort",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_559",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "novus",
+    "dutch": "nieuw",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_560",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "antiquus",
+    "dutch": "oud",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_561",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "celer",
+    "dutch": "snel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_562",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "lentus",
+    "dutch": "langzaam",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_563",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "fortis",
+    "dutch": "dapper",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_564",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "clarus",
+    "dutch": "beroemd",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_565",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "primus",
+    "dutch": "eerste",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_566",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ultimus",
+    "dutch": "laatste",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_567",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "totus",
+    "dutch": "geheel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_568",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "alius",
+    "dutch": "ander",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_569",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "multus",
+    "dutch": "veel",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_570",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "pauci",
+    "dutch": "weinig",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_571",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "omnis",
+    "dutch": "alle",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_572",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "nullus",
+    "dutch": "geen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_573",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "hic",
+    "dutch": "hier",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_574",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ubi",
+    "dutch": "waar",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_575",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "quo",
+    "dutch": "waarheen",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_576",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "quomodo",
+    "dutch": "hoe",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_577",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "quando",
+    "dutch": "wanneer",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_578",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "saepe",
+    "dutch": "vaak",
+    "comment": ""
+  },
+  {
+    "id": "Minerva1_579",
+    "method": "Minerva1",
+    "chapter": "extra",
+    "language": "ergo",
+    "dutch": "dus",
+    "comment": ""
+  }
+]

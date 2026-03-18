@@ -1,7 +1,8 @@
 export interface Word {
-  id: string; // latin-dutch-chapter to be unique
+  id: string;
+  method: string;
   chapter: string;
-  latin: string;
+  language: string;
   dutch: string;
   comment?: string;
 }
@@ -16,13 +17,14 @@ export const MAX_SCORE = 20;
 
 export async function fetchWords(): Promise<Word[]> {
   try {
-    const response = await fetch('/latin_minerva.json');
+    const response = await fetch('/words.json');
     const data = await response.json();
     
     return data.map((item: any) => ({
-      id: `${item.latin.trim()}-${item.dutch.trim()}-${item.chapter.toString().trim()}`,
+      id: item.id.toString().trim(),
+      method: item.method.toString().trim(),
       chapter: item.chapter.toString().trim(),
-      latin: item.latin.trim(),
+      language: item.language.trim(),
       dutch: item.dutch.trim(),
       comment: item.comment?.trim(),
     }));

@@ -108,7 +108,7 @@ export default function Quiz({ words, allWords, onBack, updateScore, scores, qui
 
   if (quizFinished) {
     return (
-      <div className="flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
+      <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
         <h2 className="text-3xl font-bold mb-4 text-indigo-900 dark:text-indigo-400">Quiz Results</h2>
         <div className="text-6xl font-black mb-4 text-indigo-600 dark:text-indigo-500">
           {results.total > 0 ? Math.round((results.correct / results.total) * 100) : 0}%
@@ -144,14 +144,14 @@ export default function Quiz({ words, allWords, onBack, updateScore, scores, qui
   if (!currentWord) return <div className="dark:text-white">Loading...</div>;
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
+    <div className="flex flex-col items-center justify-center p-4 sm:p-8 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl shadow-xl max-w-md mx-auto border dark:border-gray-700 w-full min-h-[500px]">
       <div className="w-full flex justify-between items-center mb-6">
         <span className="text-gray-500 dark:text-gray-400 font-medium text-xs sm:text-sm uppercase">Question {totalQuestions - questionsLeft + 1}/{totalQuestions}</span>
         <button onClick={onBack} className="text-xs sm:text-sm text-gray-400 hover:text-indigo-500 underline transition-colors">Exit Quiz</button>
       </div>
       
       <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 mb-6 sm:mb-10 p-4 sm:p-6 border-b-2 border-indigo-100 dark:border-indigo-900/50 w-full text-center">
-        {currentWord.latin}
+        {currentWord.language}
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:gap-4 w-full">
