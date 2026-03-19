@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { getUser, updateUser } from '@/lib/db';
 
 export async function POST(request: Request) {
-  const { userId, wordId, score } = await request.json();
+  const { userId, wordId, score, direction = 'lang-to-nl' } = await request.json();
 
   if (!userId || !wordId) {
     return NextResponse.json({ error: 'Missing userId or wordId' }, { status: 400 });
@@ -13,7 +13,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'User not found' }, { status: 404 });
   }
 
-  const newScores = { ...user.scores, [wordId]: score };
+  const scoreField = direction === 'nl-to-lang' ? 'scores2' : 'scores';
+  const existingScores = user[scoreField] || {};
+  const newScores = { ...existingScores, [wordId]: score };
   const newStats = { 
     ...user.stats, 
     wordsPracticed: (user.stats.wordsPracticed || 0) + 1 
@@ -29,7 +31,7 @@ export async function POST(request: Request) {
   });
 
   await updateUser(userId, { 
-    scores: cleanedScores,
+    [scoreField]: cleanedScores,
     stats: newStats
   });
 

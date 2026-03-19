@@ -29,11 +29,21 @@ export async function POST(request: Request) {
       });
     }
 
+    const cleanedScores2: { [key: string]: number } = {};
+    if (user.scores2) {
+      Object.entries(user.scores2 as Record<string, number>).forEach(([key, val]) => {
+        if (!key.includes('-')) {
+          cleanedScores2[key] = val;
+        }
+      });
+    }
+
     return NextResponse.json({ 
       success: true, 
       userId: user.userId,
       username: user.username,
       scores: cleanedScores,
+      scores2: cleanedScores2,
       stats: user.stats || { wordsPracticed: 0, totalTimeSpent: 0 }
     });
   } catch (error: any) {

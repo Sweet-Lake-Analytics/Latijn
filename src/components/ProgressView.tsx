@@ -6,11 +6,17 @@ import { useState } from 'react';
 interface ProgressViewProps {
   allWords: Word[];
   scores: UserScore;
+  scores2: UserScore;
   onBack: () => void;
+  method: string;
 }
 
-export default function ProgressView({ allWords, scores, onBack }: ProgressViewProps) {
-  const chapters = Array.from(new Set(allWords.map(w => w.chapter))).sort((a, b) => {
+export default function ProgressView({ allWords, scores, scores2, onBack, method }: ProgressViewProps) {
+  const [direction, setDirection] = useState<'lang-to-nl' | 'nl-to-lang'>('lang-to-nl');
+  
+  const currentScores = direction === 'nl-to-lang' ? scores2 : scores;
+
+  const chapters = Array.from(new Set(allWords.filter(w => w.method === method).map(w => w.chapter))).sort((a, b) => {
     const isAEtra = a.toLowerCase() === 'extra';
     const isBEtra = b.toLowerCase() === 'extra';
     if (isAEtra) return 1;
@@ -23,7 +29,14 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
 
   const [selectedChapter, setSelectedChapter] = useState(chapters[0] || '1');
 
-  const filteredWords = allWords.filter(w => w.chapter === selectedChapter);
+  // Handle method change and ensure selectedChapter is valid for the current method
+  const [currentMethod, setCurrentMethod] = useState(method);
+  if (method !== currentMethod) {
+    setCurrentMethod(method);
+    setSelectedChapter(chapters[0] || '1');
+  }
+
+  const filteredWords = allWords.filter(w => w.method === method && w.chapter === selectedChapter);
 
   const getScoreColor = (score: number) => {
     if (score <= 5) return 'bg-green-500';
@@ -43,21 +56,34 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
         </button>
       </div>
 
-      <div className="w-full mb-6 sm:mb-8 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-        <label className="text-xs sm:text-sm font-extrabold text-gray-700 dark:text-gray-300 uppercase">Select Chapter:</label>
-        <select 
-          value={selectedChapter}
-          onChange={(e) => setSelectedChapter(e.target.value)}
-          className="p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 w-full sm:w-auto"
-        >
-          {chapters.map(c => <option key={c} value={c}>Chapter {c}</option>)}
-        </select>
+      <div className="w-full mb-6 sm:mb-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
+        <div className="flex items-center gap-2">
+          <label className="text-xs sm:text-sm font-extrabold text-gray-700 dark:text-gray-300 uppercase">Chapter:</label>
+          <select 
+            value={selectedChapter}
+            onChange={(e) => setSelectedChapter(e.target.value)}
+            className="p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 w-full sm:w-auto text-sm"
+          >
+            {chapters.map(c => <option key={c} value={c}>Chapter {c}</option>)}
+          </select>
+        </div>
+        <div className="flex items-center gap-2">
+          <label className="text-xs sm:text-sm font-extrabold text-gray-700 dark:text-gray-300 uppercase whitespace-nowrap">Direction:</label>
+          <select 
+            value={direction}
+            onChange={(e) => setDirection(e.target.value as 'lang-to-nl' | 'nl-to-lang')}
+            className="p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 w-full sm:w-auto text-sm"
+          >
+            <option value="lang-to-nl">Language → Dutch</option>
+            <option value="nl-to-lang">Dutch → Language</option>
+          </select>
+        </div>
       </div>
 
       <div className="w-full flex-1 overflow-y-auto pr-2">
         <div className="flex flex-col gap-6 sm:gap-8 py-4">
           {filteredWords.map((word) => {
-            const score = scores[word.id] ?? INITIAL_SCORE;
+            const score = currentScores[word.id] ?? INITIAL_SCORE;
             
             // Map score to horizontal position: 20 -> 0%, 1 -> 100%
             // Formula: ((20 - score) / (19)) * 100
@@ -74,7 +100,7 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
                 <div className="flex justify-between items-baseline gap-2">
                   <div className="flex flex-col">
                     <span className="font-serif text-base sm:text-lg font-bold text-indigo-900 dark:text-indigo-300 break-words">
-                      {word.language}
+                      {direction === 'nl-to-lang' ? word.dutch : word.language}
                     </span>
                     {word.comment && (
                       <span className="text-[10px] sm:text-xs text-gray-400 dark:text-gray-500 italic">
@@ -83,7 +109,7 @@ export default function ProgressView({ allWords, scores, onBack }: ProgressViewP
                     )}
                   </div>
                   <span className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 italic text-right shrink-0">
-                    {word.dutch}
+                    {direction === 'nl-to-lang' ? word.language : word.dutch}
                   </span>
                 </div>
                 

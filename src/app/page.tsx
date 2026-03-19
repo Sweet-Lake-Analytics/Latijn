@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Word, UserScore, fetchWords, MIN_SCORE, MAX_SCORE, INITIAL_SCORE } from '@/lib/utils';
+import { Word, UserScore, fetchWords, MIN_SCORE, MAX_SCORE, INITIAL_SCORE, LearningDirection } from '@/lib/utils';
 import Flashcards from '@/components/Flashcards';
 import Quiz from '@/components/Quiz';
 import AuthModal from '@/components/AuthModal';
@@ -10,6 +10,8 @@ import ProgressView from '@/components/ProgressView';
 export default function Home() {
   const [allWords, setAllWords] = useState<Word[]>([]);
   const [scores, setScores] = useState<UserScore>({});
+  const [scores2, setScores2] = useState<UserScore>({});
+  const [direction, setDirection] = useState<LearningDirection>('lang-to-nl');
   const [stats, setStats] = useState({ wordsPracticed: 0, totalTimeSpent: 0 });
   const [method, setMethod] = useState<string>('Minerva1');
   const [startChapter, setStartChapter] = useState<string>('1');
@@ -66,6 +68,8 @@ export default function Home() {
         setUserId(savedUserId);
         const savedScores = localStorage.getItem(`latin_scores_${savedUserId}`);
         if (savedScores) setScores(JSON.parse(savedScores));
+        const savedScores2 = localStorage.getItem(`latin_scores2_${savedUserId}`);
+        if (savedScores2) setScores2(JSON.parse(savedScores2));
         const savedStats = localStorage.getItem(`latin_stats_${savedUserId}`);
         if (savedStats) setStats(JSON.parse(savedStats));
       }
@@ -73,14 +77,16 @@ export default function Home() {
     loadData();
   }, []);
 
-  const handleLogin = (id: string, u: string, s: any, st: any) => {
+  const handleLogin = (id: string, u: string, s: any, st: any, s2: any) => {
     setUserId(id);
     setUsername(u);
     setScores(s || {});
+    setScores2(s2 || {});
     setStats(st || { wordsPracticed: 0, totalTimeSpent: 0 });
     localStorage.setItem('latin_userId', id);
     localStorage.setItem('latin_user', u);
     localStorage.setItem(`latin_scores_${id}`, JSON.stringify(s || {}));
+    localStorage.setItem(`latin_scores2_${id}`, JSON.stringify(s2 || {}));
     localStorage.setItem(`latin_stats_${id}`, JSON.stringify(st || { wordsPracticed: 0, totalTimeSpent: 0 }));
   };
 
@@ -88,6 +94,7 @@ export default function Home() {
     setUserId(null);
     setUsername(null);
     setScores({});
+    setScores2({});
     setStats({ wordsPracticed: 0, totalTimeSpent: 0 });
     localStorage.removeItem('latin_userId');
     localStorage.removeItem('latin_user');
@@ -95,7 +102,12 @@ export default function Home() {
   };
 
   const updateScore = (wordId: string, delta: number) => {
-    setScores(prev => {
+    const isNlToLang = direction === 'nl-to-lang';
+    const currentScores = isNlToLang ? scores2 : scores;
+    const setScoresFn = isNlToLang ? setScores2 : setScores;
+    const storageKey = isNlToLang ? `latin_scores2_${userId}` : `latin_scores_${userId}`;
+
+    setScoresFn(prev => {
       const currentScore = prev[wordId] ?? INITIAL_SCORE;
       const newScore = Math.max(MIN_SCORE, Math.min(MAX_SCORE, currentScore + delta));
       
@@ -107,12 +119,12 @@ export default function Home() {
       next[wordId] = newScore;
       
       if (userId) {
-        localStorage.setItem(`latin_scores_${userId}`, JSON.stringify(next));
+        localStorage.setItem(storageKey, JSON.stringify(next));
         // Sync with backend
         fetch('/api/user/scores', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userId, wordId, score: newScore })
+          body: JSON.stringify({ userId, wordId, score: newScore, direction })
         });
         
         // Update local stats too
@@ -144,8 +156,9 @@ export default function Home() {
           words={filteredWords} 
           onBack={() => setMode('menu')} 
           updateScore={updateScore}
-          scores={scores}
+          scores={direction === 'nl-to-lang' ? scores2 : scores}
           userId={userId}
+          direction={direction}
         />
       </div>
     );
@@ -156,12 +169,12 @@ export default function Home() {
       <div className="flex-1 flex flex-col items-center justify-center">
         <Quiz 
           words={filteredWords} 
-          allWords={allWords}
           onBack={() => setMode('menu')} 
           updateScore={updateScore}
-          scores={scores}
+          scores={direction === 'nl-to-lang' ? scores2 : scores}
           quizSize={quizSize}
           userId={userId}
+          direction={direction}
         />
       </div>
     );
@@ -173,7 +186,9 @@ export default function Home() {
         <ProgressView 
           allWords={allWords}
           scores={scores}
+          scores2={scores2}
           onBack={() => setMode('menu')}
+          method={method}
         />
       </div>
     );
@@ -223,6 +238,18 @@ export default function Home() {
                   className="w-full p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm"
                 >
                   {methods.map(m => <option key={m} value={m}>{m}</option>)}
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-[10px] text-gray-700 dark:text-gray-300 uppercase font-extrabold mb-1">Direction</label>
+                <select 
+                  value={direction}
+                  onChange={(e) => setDirection(e.target.value as LearningDirection)}
+                  className="w-full p-2 border-2 border-gray-200 dark:border-gray-600 rounded bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm"
+                >
+                  <option value="lang-to-nl">Language → Dutch</option>
+                  <option value="nl-to-lang">Dutch → Language</option>
                 </select>
               </div>
 

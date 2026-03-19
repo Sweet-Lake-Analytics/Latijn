@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 interface AuthModalProps {
-  onLogin: (userId: string, username: string, scores: any, stats: any) => void;
+  onLogin: (userId: string, username: string, scores: any, stats: any, scores2: any) => void;
 }
 
 export default function AuthModal({ onLogin }: AuthModalProps) {
@@ -76,7 +76,7 @@ export default function AuthModal({ onLogin }: AuthModalProps) {
         if (!isLogin) generateCaptcha();
       } else {
         if (isLogin) {
-          onLogin(data.userId, data.username, data.scores, data.stats);
+          onLogin(data.userId, data.username, data.scores, data.stats, data.scores2);
         } else {
           setIsVerifying(true);
           setError('Registration successful! Please check your email for a verification code.');

@@ -1,6 +1,6 @@
 'use client';
 
-import { Word, UserScore, INITIAL_SCORE, MAX_SCORE, MIN_SCORE, getWeightedWord } from '@/lib/utils';
+import { Word, UserScore, INITIAL_SCORE, MAX_SCORE, MIN_SCORE, getWeightedWord, LearningDirection } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 
 interface FlashcardsProps {
@@ -9,9 +9,10 @@ interface FlashcardsProps {
   updateScore: (wordId: string, delta: number) => void;
   scores: UserScore;
   userId: string | null;
+  direction: LearningDirection;
 }
 
-export default function Flashcards({ words, onBack, updateScore, scores, userId }: FlashcardsProps) {
+export default function Flashcards({ words, onBack, updateScore, scores, userId, direction }: FlashcardsProps) {
   const [currentWord, setCurrentWord] = useState<Word | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
   const [startTime, setStartTime] = useState(Date.now());
@@ -154,10 +155,12 @@ export default function Flashcards({ words, onBack, updateScore, scores, userId 
           <div className="absolute inset-y-0 left-0 w-1 bg-red-500 opacity-50"></div>
         )}
 
-        <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 font-bold">{currentWord.language}</div>
+        <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 font-bold">
+          {direction === 'nl-to-lang' ? currentWord.dutch : currentWord.language}
+        </div>
         {showTranslation && (
           <div className="mt-4 sm:mt-8 text-xl sm:text-2xl text-gray-700 dark:text-gray-300 animate-in fade-in slide-in-from-top-2 duration-300">
-            {currentWord.dutch}
+            {direction === 'nl-to-lang' ? currentWord.language : currentWord.dutch}
             {currentWord.comment && <span className="block text-sm sm:text-lg mt-2 text-gray-500 dark:text-gray-400">({currentWord.comment})</span>}
           </div>
         )}

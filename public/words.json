@@ -4630,5 +4630,749 @@
     "language": "ergo",
     "dutch": "dus",
     "comment": ""
+  },
+  {
+    "id": "AllRight2_001",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "amount of",
+    "dutch": "hoeveelheid",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_002",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "carbohydrates",
+    "dutch": "koolhydraten",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_003",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "cauliflower",
+    "dutch": "bloemkool",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_004",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "to contain",
+    "dutch": "bevatten",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_005",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "cottage cheese",
+    "dutch": "kwark",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_006",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "deposit",
+    "dutch": "statiegeld/borg",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_007",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "food label",
+    "dutch": "voedingsetiket",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_008",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "listed",
+    "dutch": "opgesomd",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_009",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "nutrition",
+    "dutch": "voeding",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_010",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "packaged",
+    "dutch": "verpakt",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_011",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "popsicle",
+    "dutch": "ijslolly",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_012",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "produce (section)",
+    "dutch": "(afdeling) groenten en fruit",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_013",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "saturated fat",
+    "dutch": "verzadigd vet",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_014",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "serving",
+    "dutch": "portie",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_015",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "shelf stacker",
+    "dutch": "vakkenvuller",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_016",
+    "method": "AllRight2",
+    "chapter": "1",
+    "language": "skimmed milk",
+    "dutch": "magere melk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_017",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "dairy (section)",
+    "dutch": "(afdeling) melkproducten",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_018",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "supplies",
+    "dutch": "benodigdheden",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_019",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "aisle",
+    "dutch": "gang(pad)",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_020",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "checkout/cash register",
+    "dutch": "kassa",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_021",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "cashier",
+    "dutch": "kassamedewerker",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_022",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "customer",
+    "dutch": "klant",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_023",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "discount",
+    "dutch": "korting",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_024",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "to borrow",
+    "dutch": "lenen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_025",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "solution",
+    "dutch": "oplossing",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_026",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "shelf",
+    "dutch": "schap/plank",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_027",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "butcher’s shop",
+    "dutch": "slagerij",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_028",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "counter",
+    "dutch": "toonbank",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_029",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "packaging",
+    "dutch": "verpakking",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_030",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "to waste",
+    "dutch": "verspillen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_031",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "to weigh",
+    "dutch": "wegen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_032",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "shopping cart",
+    "dutch": "winkelkarretje",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_033",
+    "method": "AllRight2",
+    "chapter": "2",
+    "language": "shopping basket",
+    "dutch": "winkelmandje",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_034",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "(bi-)annual",
+    "dutch": "(twee-)jaarlijks",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_035",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "bold",
+    "dutch": "opvallend",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_036",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "casual (clothes)",
+    "dutch": "informeel/vrijetijds-(kleding)",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_037",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "to display",
+    "dutch": "tonen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_038",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "edgy",
+    "dutch": "gewaagd",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_039",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "fabric",
+    "dutch": "stof/materiaal",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_040",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "fibre",
+    "dutch": "vezel",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_041",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "garment",
+    "dutch": "kledingstuk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_042",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "gown",
+    "dutch": "lange jurk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_043",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "hem",
+    "dutch": "zoom",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_044",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "high street",
+    "dutch": "(winkels) voor het grote publiek",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_045",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "old-fashioned",
+    "dutch": "ouderwets",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_046",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "retailer",
+    "dutch": "detailhandelaar",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_047",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "seam",
+    "dutch": "naad",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_048",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "to showcase",
+    "dutch": "tentoonstellen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_049",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "to sift through",
+    "dutch": "doorzoeken",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_050",
+    "method": "AllRight2",
+    "chapter": "3",
+    "language": "thrift shop",
+    "dutch": "kringloopwinkel",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_051",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "catwalk/runway",
+    "dutch": "catwalk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_052",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "classy",
+    "dutch": "chic",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_053",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "to draw attention",
+    "dutch": "de aandacht trekken",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_054",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "knit",
+    "dutch": "gebreid",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_055",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "to be inspired by",
+    "dutch": "geïnspireerd worden door",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_056",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "good cause",
+    "dutch": "goed doel",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_057",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "well-dressed",
+    "dutch": "goed gekleed",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_058",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "cotton",
+    "dutch": "katoen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_059",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "bargain",
+    "dutch": "koopje",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_060",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "leather",
+    "dutch": "leer",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_061",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "linen",
+    "dutch": "linnen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_062",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "label",
+    "dutch": "merk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_063",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "pattern",
+    "dutch": "patroon",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_064",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "denim",
+    "dutch": "spijkerstof",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_065",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "style",
+    "dutch": "stijl",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_066",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "wool",
+    "dutch": "wol",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_067",
+    "method": "AllRight2",
+    "chapter": "4",
+    "language": "silk",
+    "dutch": "zijde",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_068",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "accessories",
+    "dutch": "accessoires",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_069",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "bank holiday",
+    "dutch": "nationale feestdag",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_070",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "christening",
+    "dutch": "doop",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_071",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "festivity",
+    "dutch": "feestelijkheid",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_072",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "to honour",
+    "dutch": "eren",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_073",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "leprechaun",
+    "dutch": "(Ierse) elf",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_074",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "to originate",
+    "dutch": "ontstaan",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_075",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "patron saint",
+    "dutch": "beschermheilige",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_076",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "Pentecost",
+    "dutch": "Pinksteren",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_077",
+    "method": "AllRight2",
+    "chapter": "5",
+    "language": "to recognise",
+    "dutch": "erkennen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_078",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "touching",
+    "dutch": "aandoenlijk",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_079",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "gift; present",
+    "dutch": "cadeautje",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_080",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "graduation",
+    "dutch": "diploma-uitreiking",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_081",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to dress up",
+    "dutch": "formeel kleden/verkleden",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_082",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "custom",
+    "dutch": "gewoonte/gebruik",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_083",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to wrap",
+    "dutch": "inpakken",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_084",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "anniversary",
+    "dutch": "jubileum",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_085",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "public holiday",
+    "dutch": "nationale feestdag",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_086",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "Easter",
+    "dutch": "Pasen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_087",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to take place",
+    "dutch": "plaatsvinden",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_088",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to invite",
+    "dutch": "uitnodigen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_089",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "invitation",
+    "dutch": "uitnodiging",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_090",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to gather",
+    "dutch": "verzamelen/samenkomen",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_091",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to celebrate",
+    "dutch": "vieren",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_092",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "day off",
+    "dutch": "vrije dag",
+    "comment": ""
+  },
+  {
+    "id": "AllRight2_093",
+    "method": "AllRight2",
+    "chapter": "6",
+    "language": "to be embarrassed",
+    "dutch": "zich generen (schamen)",
+    "comment": ""
   }
 ]

@@ -11,6 +11,8 @@ export interface UserScore {
   [wordId: string]: number;
 }
 
+export type LearningDirection = 'lang-to-nl' | 'nl-to-lang';
+
 export const INITIAL_SCORE = 10;
 export const MIN_SCORE = 1;
 export const MAX_SCORE = 20;

@@ -1,19 +1,19 @@
 'use client';
 
-import { Word, UserScore, getWeightedWord, shuffleArray } from '@/lib/utils';
+import { Word, UserScore, getWeightedWord, shuffleArray, LearningDirection } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 
 interface QuizProps {
   words: Word[];
-  allWords: Word[]; // To pick distractors from
   onBack: () => void;
   updateScore: (wordId: string, delta: number) => void;
   scores: UserScore;
   quizSize: number;
   userId: string | null;
+  direction: LearningDirection;
 }
 
-export default function Quiz({ words, allWords, onBack, updateScore, scores, quizSize, userId }: QuizProps) {
+export default function Quiz({ words, onBack, updateScore, scores, quizSize, userId, direction }: QuizProps) {
   const [currentWord, setCurrentWord] = useState<Word | null>(null);
   const [options, setOptions] = useState<string[]>([]);
   const [answered, setAnswered] = useState<string | null>(null);
@@ -71,11 +71,15 @@ export default function Quiz({ words, allWords, onBack, updateScore, scores, qui
     setCurrentWord(word);
     setUsedWordIds(prev => new Set(prev).add(word.id));
     
-    // Pick 3 random Dutch words from allWords (excluding the correct one)
-    const otherWords = allWords.filter(w => w.dutch !== word.dutch);
-    const distractors = shuffleArray(otherWords).slice(0, 3).map(w => w.dutch);
+    const isNlToLang = direction === 'nl-to-lang';
+    const correctAnswer = isNlToLang ? word.language : word.dutch;
+
+    // Pick 3 random distractors from the current set of words (excluding the correct one)
+    // We use the 'words' prop which already contains words from the selected method and chapters
+    const otherWords = words.filter(w => (isNlToLang ? w.language : w.dutch) !== correctAnswer);
+    const distractors = shuffleArray(otherWords).slice(0, 3).map(w => isNlToLang ? w.language : w.dutch);
     
-    setOptions(shuffleArray([word.dutch, ...distractors]));
+    setOptions(shuffleArray([correctAnswer, ...distractors]));
     setAnswered(null);
     setIsCorrect(null);
   };
@@ -88,7 +92,9 @@ export default function Quiz({ words, allWords, onBack, updateScore, scores, qui
     if (answered || !currentWord) return;
 
     setAnswered(option);
-    const correct = option === currentWord.dutch;
+    const isNlToLang = direction === 'nl-to-lang';
+    const correctAnswer = isNlToLang ? currentWord.language : currentWord.dutch;
+    const correct = option === correctAnswer;
     setIsCorrect(correct);
     
     setResults(prev => ({
@@ -151,17 +157,20 @@ export default function Quiz({ words, allWords, onBack, updateScore, scores, qui
       </div>
       
       <div className="text-2xl sm:text-4xl font-serif text-indigo-900 dark:text-indigo-300 mb-6 sm:mb-10 p-4 sm:p-6 border-b-2 border-indigo-100 dark:border-indigo-900/50 w-full text-center">
-        {currentWord.language}
+        {direction === 'nl-to-lang' ? currentWord.dutch : currentWord.language}
       </div>
 
       <div className="grid grid-cols-1 gap-3 sm:gap-4 w-full">
         {options.map((option, idx) => {
           let buttonClass = "w-full py-4 px-6 text-left rounded-xl border-2 transition-all duration-200 font-medium ";
           
+          const isNlToLang = direction === 'nl-to-lang';
+          const correctAnswer = isNlToLang ? currentWord.language : currentWord.dutch;
+
           if (!answered) {
             buttonClass += "border-gray-100 dark:border-gray-700 hover:border-indigo-400 dark:hover:border-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 text-gray-700 dark:text-gray-200";
           } else {
-            if (option === currentWord.dutch) {
+            if (option === correctAnswer) {
               buttonClass += "border-green-500 bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 font-bold";
             } else if (option === answered) {
               buttonClass += "border-red-500 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400 font-bold";
