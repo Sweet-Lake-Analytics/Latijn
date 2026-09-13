@@ -5374,5 +5374,341 @@
     "language": "to be embarrassed",
     "dutch": "zich generen (schamen)",
     "comment": ""
+  },
+  {
+    "id": "Frans_001",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "bonjour",
+    "dutch": "dag",
+    "comment": ""
+  },
+  {
+    "id": "Frans_002",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "bonsoir",
+    "dutch": "goedenavond",
+    "comment": ""
+  },
+  {
+    "id": "Frans_003",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "salut",
+    "dutch": "hoi",
+    "comment": ""
+  },
+  {
+    "id": "Frans_004",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "au revoir",
+    "dutch": "tot ziens",
+    "comment": ""
+  },
+  {
+    "id": "Frans_005",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "à bientôt",
+    "dutch": "tot gauw",
+    "comment": ""
+  },
+  {
+    "id": "Frans_006",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "à demain",
+    "dutch": "tot morgen",
+    "comment": ""
+  },
+  {
+    "id": "Frans_007",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "à plus",
+    "dutch": "tot later",
+    "comment": ""
+  },
+  {
+    "id": "Frans_008",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "ça va?",
+    "dutch": "hoe gaat het",
+    "comment": ""
+  },
+  {
+    "id": "Frans_009",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "pas mal",
+    "dutch": "niet slecht",
+    "comment": ""
+  },
+  {
+    "id": "Frans_010",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "merci",
+    "dutch": "bedankt",
+    "comment": ""
+  },
+  {
+    "id": "Frans_011",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "oui",
+    "dutch": "ja",
+    "comment": ""
+  },
+  {
+    "id": "Frans_012",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "non",
+    "dutch": "nee",
+    "comment": ""
+  },
+  {
+    "id": "Frans_013",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "le garçon",
+    "dutch": "de jongen",
+    "comment": ""
+  },
+  {
+    "id": "Frans_014",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la fille",
+    "dutch": "het meisje",
+    "comment": ""
+  },
+  {
+    "id": "Frans_015",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "je m’appelle (s’appeler)",
+    "dutch": "ik heet (heten)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_016",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "j’habite (habiter)",
+    "dutch": "ik woon (wonen)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_017",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "voici",
+    "dutch": "hier is, hier zijn",
+    "comment": ""
+  },
+  {
+    "id": "Frans_018",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "voilà",
+    "dutch": "daar is, daar zijn",
+    "comment": ""
+  },
+  {
+    "id": "Frans_019",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "monsieur",
+    "dutch": "meneer",
+    "comment": ""
+  },
+  {
+    "id": "Frans_020",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "madame",
+    "dutch": "mevrouw",
+    "comment": ""
+  },
+  {
+    "id": "Frans_021",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "il y a",
+    "dutch": "er is, er zijn",
+    "comment": ""
+  },
+  {
+    "id": "Frans_022",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "c’est",
+    "dutch": "het is, dat is",
+    "comment": ""
+  },
+  {
+    "id": "Frans_023",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "français(e)",
+    "dutch": "Frans",
+    "comment": ""
+  },
+  {
+    "id": "Frans_024",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "néerlandaise(e)",
+    "dutch": "Nederlands",
+    "comment": ""
+  },
+  {
+    "id": "Frans_025",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "où?",
+    "dutch": "waar?",
+    "comment": ""
+  },
+  {
+    "id": "Frans_026",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "le quartier",
+    "dutch": "de wijk",
+    "comment": ""
+  },
+  {
+    "id": "Frans_027",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "l’école (f)",
+    "dutch": "de school",
+    "comment": ""
+  },
+  {
+    "id": "Frans_028",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "le pays",
+    "dutch": "het land",
+    "comment": ""
+  },
+  {
+    "id": "Frans_029",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la passion",
+    "dutch": "de hobby, passie",
+    "comment": ""
+  },
+  {
+    "id": "Frans_030",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la ville",
+    "dutch": "de stad",
+    "comment": ""
+  },
+  {
+    "id": "Frans_031",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "l’habitant (m)",
+    "dutch": "de inwoner",
+    "comment": ""
+  },
+  {
+    "id": "Frans_032",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la rue",
+    "dutch": "de straat",
+    "comment": ""
+  },
+  {
+    "id": "Frans_033",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "dans",
+    "dutch": "in",
+    "comment": ""
+  },
+  {
+    "id": "Frans_034",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "joli",
+    "dutch": "mooi, leuk",
+    "comment": ""
+  },
+  {
+    "id": "Frans_035",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "le collège",
+    "dutch": "de middelbare school (klas 1, 2, 3)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_036",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "j’adore (adorer)",
+    "dutch": "ik ben dol op (dol zijn op)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_037",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "et toi?",
+    "dutch": "en jij?",
+    "comment": ""
+  },
+  {
+    "id": "Frans_038",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la classe",
+    "dutch": "de klas",
+    "comment": ""
+  },
+  {
+    "id": "Frans_039",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "l’ami (m)",
+    "dutch": "de vriend",
+    "comment": ""
+  },
+  {
+    "id": "Frans_040",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "aussi",
+    "dutch": "ook",
+    "comment": ""
+  },
+  {
+    "id": "Frans_041",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "la France",
+    "dutch": "Frankrijk",
+    "comment": ""
+  },
+  {
+    "id": "Frans_042",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "grand",
+    "dutch": "groot",
+    "comment": ""
   }
 ]
