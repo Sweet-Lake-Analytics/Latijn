@@ -5710,5 +5710,213 @@
     "language": "grand",
     "dutch": "groot",
     "comment": ""
+  },
+  {
+    "id": "Frans_043",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "l’ami (f)",
+    "dutch": "de vriendin",
+    "comment": ""
+  },
+  {
+    "id": "Frans_044",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "comment?",
+    "dutch": "hoe?",
+    "comment": ""
+  },
+  {
+    "id": "Frans_045",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "ça va bien",
+    "dutch": "het gaat goed",
+    "comment": ""
+  },
+  {
+    "id": "Frans_046",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "le prénom",
+    "dutch": "de voornaam",
+    "comment": ""
+  },
+  {
+    "id": "Frans_047",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "tu habites (habiter)",
+    "dutch": "jij woont (wonen)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_048",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "qui?",
+    "dutch": "wie?",
+    "comment": ""
+  },
+  {
+    "id": "Frans_049",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "tu t’appelles (s’appaler)",
+    "dutch": "jij heet (heten)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_050",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "présenter",
+    "dutch": "voorstellen",
+    "comment": ""
+  },
+  {
+    "id": "Frans_051",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "moi?",
+    "dutch": "ik?",
+    "comment": ""
+  },
+  {
+    "id": "Frans_052",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "chouette",
+    "dutch": "leuk",
+    "comment": ""
+  },
+  {
+    "id": "Frans_053",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "nouveau, nouvelle",
+    "dutch": "nieuw",
+    "comment": ""
+  },
+  {
+    "id": "Frans_054",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "là-bas",
+    "dutch": "daar, daarginds",
+    "comment": ""
+  },
+  {
+    "id": "Frans_055",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "regarde ! (regarder) ",
+    "dutch": "kijk! (kijken naar)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_056",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "tout près",
+    "dutch": "vlakbij",
+    "comment": ""
+  },
+  {
+    "id": "Frans_057",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "écoutez! (écouter)",
+    "dutch": "luister! (luisteren naar)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_058",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "c’est l’heure",
+    "dutch": "het is tijd",
+    "comment": ""
+  },
+  {
+    "id": "Frans_059",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "excuse-moi",
+    "dutch": "sorry",
+    "comment": ""
+  },
+  {
+    "id": "Frans_060",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "je suis",
+    "dutch": "ik ben ",
+    "comment": ""
+  },
+  {
+    "id": "Frans_061",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "tu es",
+    "dutch": "jij bent",
+    "comment": ""
+  },
+  {
+    "id": "Frans_062",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "il est",
+    "dutch": "hij is",
+    "comment": ""
+  },
+  {
+    "id": "Frans_063",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "elle est",
+    "dutch": "zij is",
+    "comment": ""
+  },
+  {
+    "id": "Frans_064",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "on est",
+    "dutch": "wij zijn, men is",
+    "comment": ""
+  },
+  {
+    "id": "Frans_065",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "nous sommes",
+    "dutch": "wij zijn, men is",
+    "comment": ""
+  },
+  {
+    "id": "Frans_066",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "vous êtes",
+    "dutch": "jullie zijn, u bent",
+    "comment": ""
+  },
+  {
+    "id": "Frans_067",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "ils sont",
+    "dutch": "zij zijn (m)",
+    "comment": ""
+  },
+  {
+    "id": "Frans_068",
+    "method": "Frans_VWO1",
+    "chapter": "1",
+    "language": "elles sont",
+    "dutch": "zij zijn (v)",
+    "comment": ""
   }
 ]
